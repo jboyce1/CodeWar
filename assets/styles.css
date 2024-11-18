@@ -1,0 +1,42 @@
+/* General Styling */
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f4f1e8; /* Old yellowed paper color */
+    color: #000; /* Black text */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 2px solid #000;
+}
+
+header a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* Links */
+a {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #000; /* Links stay black */
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+/* Main Content */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
