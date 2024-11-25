@@ -12,7 +12,7 @@ In this course, students will delve into Cold War history by transforming the vi
 
 ### Course Modules and Classes
 
-- [Preparing for Winter](./PreparingForWinter)
+- [Preparing for Winter](./classes/PreparingForWinter)
 - [Insulating from the Cold](./InsulatingFromTheCold)
 - [A Fire in Another Land](./AFireInAnotherLand)
 - [Intelligence Everywhere and Nowhere](./IntelligenceEverywhereAndNowhere)
