@@ -14,4 +14,7 @@ title: Preparing for Winter
 - **Lecture**: Overview of the geopolitical landscape following WWII.
 - **Activity**: Modify YAML files to represent the initial setup of NATO and Warsaw Pact factions in *Command and Conquer: Red Alert*.
 
+### Resources:
+- [Behind the Times: Potsdam PDF]({{ '/classes/PreparingForWinter/Behind the Times- Potsdam.pdf' | relative_url }})
+
 [Return to Home](../)
