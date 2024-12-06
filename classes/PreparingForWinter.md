@@ -15,10 +15,15 @@ title: Preparing for Winter
 
 **Key points:**
    Russian Revolution (1917-23)
+   
    Ideological Division (1923-1938)
+   
    Molotov-Ribbentrop (August 1939)
+   
    Operaration Barbarossa (June 1941)
+   
    Tehran (December 1943)
+   
    Operation Overlord (June 1944)  
 
 ### Update Feb 1945:
