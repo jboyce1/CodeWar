@@ -24,12 +24,12 @@ title: Preparing for Winter
 ### [Yalta vs Potsdam Instructions]({{ 'classes/PreparingForWinter/Yalta vs Potsdam Instructions.pdf' | relative_url }})   
 **Update Feb 1945:**  
 - [Behind the Times: Yalta]({{ 'classes/PreparingForWinter/Behind the Times- Yalta.pdf' | relative_url }})  
-    Activity 1: Negotiate
+    Activity 1: [Negotiate]({{ 'classes/PreparingForWinter/Yalta and Potsdam Options No Explaination.pdf' | relative_url }})
 
   
 **Update July 1945:**  
 - [Behind the Times: Potsdam]({{ '/classes/PreparingForWinter/Behind the Times- Potsdam.pdf' | relative_url }})  
-    Activity 2: Renegotiate  
+    Activity 2: [Renegotiate]({{ 'classes/PreparingForWinter/Yalta and Potsdam Options No Explaination.pdf' | relative_url }})
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/S2PUIQpAEAQ?si=2tRA0rVqh2FQFGew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
