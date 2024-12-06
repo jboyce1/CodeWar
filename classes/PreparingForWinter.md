@@ -21,12 +21,13 @@ title: Preparing for Winter
 - Tehran (December 1943)
 - Operation Overlord (June 1944)  
 
-### Update Feb 1945:
+### [Yalta vs Potsdam Instructions]({{ 'classes/PreparingForWinter/Yalta vs Potsdam Instructions.pdf' | relative_url }})   
+**Update Feb 1945:**  
 - [Behind the Times: Yalta]({{ 'classes/PreparingForWinter/Behind the Times- Yalta.pdf' | relative_url }})  
     Activity 1: Negotiate
 
   
-### Update July 1945:
+**Update July 1945:**  
 - [Behind the Times: Potsdam]({{ '/classes/PreparingForWinter/Behind the Times- Potsdam.pdf' | relative_url }})  
     Activity 2: Renegotiate  
 
