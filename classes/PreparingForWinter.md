@@ -30,6 +30,8 @@ title: Preparing for Winter
 **Update July 1945:**  
 - [Behind the Times: Potsdam]({{ '/classes/PreparingForWinter/Behind the Times- Potsdam.pdf' | relative_url }})  
     Activity 2: [Renegotiate]({{ 'classes/PreparingForWinter/Yalta and Potsdam Options No Explaination.pdf' | relative_url }})
+
+  
 <div style="text-align: center;">
 **The Snow Starts Falling**
 <iframe width="560" height="315" src="https://www.youtube.com/embed/S2PUIQpAEAQ?si=2tRA0rVqh2FQFGew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
