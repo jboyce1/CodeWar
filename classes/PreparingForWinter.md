@@ -15,6 +15,7 @@ title: Preparing for Winter
 - **Activity**: Modify YAML files to represent the initial setup of NATO and Warsaw Pact factions in *Command and Conquer: Red Alert*.
 
 ### Resources:
+- [Behind the Times: Yalta PDF]({{ 'classes/PreparingForWinter/Behind the Times- Yalta.pdf' | relative_url }})
 - [Behind the Times: Potsdam PDF]({{ '/classes/PreparingForWinter/Behind the Times- Potsdam.pdf' | relative_url }})
 
 [Return to Home](../)
