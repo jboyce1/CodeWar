@@ -11,7 +11,7 @@ title: Preparing for Winter
   <img src="{{ '/classes/PreparingForWinter/1946_Europe_Political.jpg' | relative_url }}" alt="1946 Europe Political Map" style="max-width: 80%; height: auto;">
 </div>
 
-- **Lecture**: Overview of the geopolitical landscape leading up to the Yalta Conference
+### Lecture: Overview of the geopolitical landscape leading up to the Yalta Conference
 
 - Key points:
    Russian Revolution (1917-23)
