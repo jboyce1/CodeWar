@@ -30,9 +30,9 @@ title: Preparing for Winter
 **Update July 1945:**  
 - [Behind the Times: Potsdam]({{ '/classes/PreparingForWinter/Behind the Times- Potsdam.pdf' | relative_url }})  
     Activity 2: [Renegotiate]({{ 'classes/PreparingForWinter/Yalta and Potsdam Options No Explaination.pdf' | relative_url }})
-
+<div style="text-align: center;">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/S2PUIQpAEAQ?si=2tRA0rVqh2FQFGew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
+</div>
 We are now prepared for Winter: [Europe 1946 by influence]({{ 'classes/PreparingForWinter/Europe 1946 by influence.png' | relative_url }})
 
 # Discussion Questions: Preparing for Winter
