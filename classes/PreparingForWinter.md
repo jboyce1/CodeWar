@@ -13,7 +13,7 @@ title: Preparing for Winter
 
 ### Lecture: Overview of the geopolitical landscape leading up to the Yalta Conference
 
-- Key points:
+**Key points:**
    Russian Revolution (1917-23)
    Ideological Division (1923-1938)
    Molotov-Ribbentrop (August 1939)
