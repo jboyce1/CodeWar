@@ -16,9 +16,9 @@ title: Preparing for Winter
 **Key points:**
 - Russian Revolution (1917-23)
 - Ideological Division (1923-1938)
-- Molotov-Ribbentrop (August 1939)
+- Molotov-Ribbentrop Non-Aggression Pact (August 1939)
 - Operaration Barbarossa (June 1941)
-- Tehran (December 1943)
+- Tehran Conference (December 1943)
 - Operation Overlord (June 1944)  
 
 ### [Yalta vs Potsdam Instructions]({{ 'classes/PreparingForWinter/Yalta vs Potsdam Instructions.pdf' | relative_url }})   
