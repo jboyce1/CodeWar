@@ -8,8 +8,10 @@ title: Enemies From Within
 **Focus**: Espionage and sedition: the origins and rise of cold-war era paranoia
 
 <div style="text-align: center;">
-  <img src="{{ '/classes/PreparingForWinter/1946_Europe_Political.jpg' | relative_url }}" alt="1946 Europe Political Map" style="max-width: 80%; height: auto;">
+  <img src="{{ 'classes/EnemiesFromWithin/Possible Campaigns in Western Europe 1953.jpg' | relative_url }}" alt="Possible Campaigns in Western Europe 1953" style="max-width: 80%; height: auto;">
 </div>
+In 1951, NATO was aware of the general position of 175 Soviet and 62 Satellite divisions. For compatison, NATO had 35 divisions. This map shows a possible Soviet Invasion from the perspective of NATO intelligence.
+
 
 ### Lecture: Strategic military postures in 1949
 
@@ -20,10 +22,11 @@ title: Enemies From Within
 - Show of force as a weapon (USSR)
 - Espionage and subversion: a juxtapostion of ideals
 
-### [Signals and Subversion: Sedition in the Shadow of the Iron Curtain 1948-1954]({{ 'classes/EnemiesFromWithin/Signals and Subversion Instructions.pdf' | relative_url }})   
-**Update Feb 1945:**  
-- [Behind the Times: Yalta]({{ 'classes/PreparingForWinter/Behind the Times- Yalta.pdf' | relative_url }})  
-    Activity 1: [Negotiate]({{ 'classes/PreparingForWinter/Yalta and Potsdam Options No Explaination.pdf' | relative_url }})
+  **Update Feb 1950:**  
+- [Behind the Times: McCarthy Speech]({{ 'classes/EnemiesFromWithin/Behind the Times- McCarthy Speech.pdf' | relative_url }})   
+
+Activity 1: ### [Signals and Subversion: Sedition in the Shadow of the Iron Curtain 1948-1954]({{ 'classes/EnemiesFromWithin/Signals and Subversion Instructions.pdf' | relative_url }})    
+Activity 2: ###[Blooms Dinner Party 1950]({{ 'classes/EnemiesFromWithin/Blooms Dinner Party 1950.pdf' | relative_url }}) 
 
   
 **Update July 1945:**  
