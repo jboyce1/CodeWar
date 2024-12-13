@@ -34,8 +34,8 @@ Activity 2: [Blooms Dinner Party 1950]({{ 'classes/EnemiesFromWithin/Blooms Dinn
 We are now prepared for Winter: [Europe 1946 by influence]({{ 'classes/PreparingForWinter/Europe 1946 by influence.png' | relative_url }})
 
 <div style="text-align: center;">
-**The Snow Starts Falling**
-[<iframe width="560" height="315" src="https://www.youtube.com/embed/S2PUIQpAEAQ?si=2tRA0rVqh2FQFGew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>](https://youtu.be/78SpTNDUSkQ?si=kxjtVQnYP5XzOMeT)
+**Human Intelligence is the only Intelligence...for now**
+<iframe width="560" height="315" src="https://www.youtube.com/embed/S2PUIQpAEAQ?si=2tRA0rVqh2FQFGew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 ### [Operation Bloom Inquiry: Preparing for Winter]({{ 'classes/PreparingForWinter/Preparing for Winter- questions.pdf' | relative_url }})
 
