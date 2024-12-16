@@ -47,5 +47,6 @@ We are now prepared for Winter: [Europe 1946 by influence]({{ 'classes/Preparing
 
 ### Practical Exercise- Command and Conquer: 1948
 
-[Operation Bloom Inquiry: Technology and Tactics 1948]({{ 'classes/PreparingForWinter/Military Forces and Technologies in 1948- questions.pdf' | relative_url }})
+[Operation Bloom Inquiry: Technology and Tactics 1948]({{ 'classes/PreparingForWinter/Military Forces and Technologies in 1948- questions.pdf' | relative_url }})    
+
 [Return to Home](../)
