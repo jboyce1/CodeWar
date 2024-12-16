@@ -35,7 +35,9 @@ Activity 1: [Signals and Subversion: Sedition in the Shadow of the Iron Curtain 
 
   Activity 2: [Blooms Dinner Party 1950]({{ 'classes/EnemiesFromWithin/Blooms Dinner Party 1950.pdf' | relative_url }})   
 
-### Practical Exercise- Command and Conquer: 1954
+### Practical Exercise- Command and Conquer: 1950    
+[Code War Classification Guide]({{ 'classes/EnemiesFromWithin/STRATEGIC OVERVIEW OF KEY INSTALLATIONS IN THE NATO AND WARSAW PACT ZONES.pdf' | relative_url }})    
+[STRATEGIC OVERVIEW OF KEY INSTALLATIONS IN THE NATO AND WARSAW PACT ZONES]({{ 'classes/EnemiesFromWithin/STRATEGIC OVERVIEW OF KEY INSTALLATIONS IN THE NATO AND WARSAW PACT ZONES.pdf' | relative_url }})
 
   
 [Return to Home](../)
