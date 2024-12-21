@@ -40,7 +40,7 @@ Activity 1: Game
   [Blooms Dinner Party 1950]({{ 'classes/EnemiesFromWithin/Blooms Dinner Party 1950.pdf' | relative_url }})   
 
 ### Practical Exercise- Command and Conquer: 1950    
-[Code War Classification Guide]({{ 'classes/EnemiesFromWithin/STRATEGIC OVERVIEW OF KEY INSTALLATIONS IN THE NATO AND WARSAW PACT ZONES.pdf' | relative_url }})    
+[Code War Classification Guide]({{ 'classes/EnemiesFromWithin/Code War Classification Levels.pdf' | relative_url }})    
 [Strategic Overview Of Key Installations In The Nato And Warsaw Pact Zones]({{ 'classes/EnemiesFromWithin/STRATEGIC OVERVIEW OF KEY INSTALLATIONS IN THE NATO AND WARSAW PACT ZONES.pdf' | relative_url }})
 
   
