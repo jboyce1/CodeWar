@@ -13,6 +13,7 @@ In this course, students will delve into Cold War history by transforming the vi
 ### Course Modules and Classes
 
 - [Preparing for Winter](./classes/PreparingForWinter)
+- [Cold Shoulder](./classes/ColdShoulder)
 - [Enemies From Within](./classes/EnemiesFromWithin)
 - [A Fire in Another Land](./AFireInAnotherLand)
 - [Intelligence Everywhere and Nowhere](./IntelligenceEverywhereAndNowhere)
