@@ -1,3 +1,8 @@
+---
+layout: default
+title: CS Essential Skills
+---
+
 # Essential C# Concepts for OpenRA Trait Modifications
 
 This guide provides an in-depth understanding of the essential C# concepts needed to modify traits in OpenRA. Each concept is explained with multiple examples taken directly from OpenRA's `.cs` files, along with robust explanations of their importance.
