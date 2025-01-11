@@ -25,7 +25,7 @@ title: Preparing for Winter
 - Ideological conflicts
 
 **Update Aug 1948:**  
-### [Behind the Times: Berlin]({{ 'classes/ColdShoulder/Behind The Times- Berlin Airlift.pdf' | relative_url }})   
+### [Behind the Times: Berlin Blockade]({{ 'classes/ColdShoulder/Behind The Times- Berlin Airlift.pdf' | relative_url }})   
 
   
 
