@@ -1,27 +1,22 @@
----
-layout: default
-title: CS Essential Skills
----
-
 # Essential C# Concepts for OpenRA Trait Modifications
 
-This guide provides an basic understanding of the essential C# concepts needed to modify traits in OpenRA.    
+This guide provides an in-depth understanding of the essential C# concepts needed to modify traits in OpenRA. 
 
 ## **1. Variables and Types**
 ### **Explanation**
 Variables store data that can be used and manipulated in the code. Understanding data types (`int`, `bool`, `string`, etc.) is critical for defining traits, tracking states, and customizing behaviors.
 
-**Examples**
+### **Examples**
 ```csharp
 // AmmoPool.cs
-public readonly int Ammo = 1;
-public readonly string Name = "primary";
+public readonly int Ammo = 1; // Defines the total ammunition for an actor.
+public readonly string Name = "primary"; // Specifies the name of the ammo pool.
 
 // Parachutable.cs
-public readonly bool KilledOnImpassableTerrain = true;
+public readonly bool KilledOnImpassableTerrain = true; // Determines if the actor dies on invalid terrain.
 
 // AutoTarget.cs
-public readonly int MinimumScanTimeInterval = 3;
+public readonly int MinimumScanTimeInterval = 3; // Sets the minimum interval between scan actions.
 ```
 ### **Why Important**
 - **Customization**: Variables like `Ammo` allow developers to control gameplay elements such as how much ammo a unit has.
@@ -40,24 +35,24 @@ Methods define the actions or logic of a class. They are used to perform specifi
 public void SetStance(Actor self, UnitStance value)
 {
     if (Stance == value)
-        return;
+        return; // Prevents redundant changes if the stance is already set.
 
     var oldStance = Stance;
-    Stance = value;
-    ApplyStanceCondition(self);
+    Stance = value; // Updates the unit's stance.
+    ApplyStanceCondition(self); // Applies any conditions based on the new stance.
 }
 
 // Cargo.cs
 public bool CanUnload(BlockedByActor check = BlockedByActor.None)
 {
-    return !IsEmpty() && CurrentAdjacentCells.Any();
+    return !IsEmpty() && CurrentAdjacentCells.Any(); // Checks if unloading is possible based on conditions.
 }
 
 // Armament.cs
 protected virtual void FireBarrel(Actor self, IFacing facing, in Target target, Barrel barrel)
 {
     foreach (var na in notifyAttacks)
-        na.PreparingAttack(self, target, this, barrel);
+        na.PreparingAttack(self, target, this, barrel); // Prepares the attack logic for the weapon's barrel.
 }
 ```
 ### **Why Important**
@@ -76,27 +71,27 @@ Classes are the blueprint for objects in object-oriented programming. In OpenRA,
 // Parachutable.cs
 public class ParachutableInfo : TraitInfo
 {
-    public readonly bool KilledOnImpassableTerrain = true;
+    public readonly bool KilledOnImpassableTerrain = true; // Determines if the actor dies on invalid terrain.
     public override object Create(ActorInitializer init)
     {
-        return new Parachutable(init.Self, this);
+        return new Parachutable(init.Self, this); // Creates an instance of the Parachutable trait.
     }
 }
 
 // AmmoPool.cs
 public class AmmoPoolInfo : TraitInfo
 {
-    public readonly int Ammo = 1;
+    public readonly int Ammo = 1; // Specifies the maximum ammunition in the pool.
     public override object Create(ActorInitializer init)
     {
-        return new AmmoPool(this);
+        return new AmmoPool(this); // Creates an instance of the AmmoPool trait.
     }
 }
 
 // Cargo.cs
 public class CargoInfo : TraitInfo
 {
-    public readonly int MaxWeight = 0;
+    public readonly int MaxWeight = 0; // Specifies the maximum weight capacity for cargo.
 }
 ```
 ### **Why Important**
@@ -113,14 +108,14 @@ Class variables store the state of a class and define its behavior. These are of
 ### **Examples**
 ```csharp
 // Armament.cs
-public readonly WeaponInfo Weapon;
-public int FireDelay { get; protected set; }
+public readonly WeaponInfo Weapon; // Links to the weapon's data.
+public int FireDelay { get; protected set; } // Tracks the cooldown time before the weapon can fire again.
 
 // AmmoPool.cs
-public int CurrentAmmoCount { get; private set; }
+public int CurrentAmmoCount { get; private set; } // Tracks the current ammo count.
 
 // Cargo.cs
-readonly List<Actor> cargo = new();
+readonly List<Actor> cargo = new(); // Stores the list of actors currently in the cargo.
 ```
 ### **Why Important**
 - **State Management**: Variables like `FireDelay` control behavior (e.g., weapon cooldowns).
@@ -136,17 +131,17 @@ Properties provide controlled access to class variables, often using logic to ma
 ### **Examples**
 ```csharp
 // AutoTarget.cs
-public UnitStance Stance { get; private set; }
-public bool AllowMove => allowMovement && Stance > UnitStance.Defend;
+public UnitStance Stance { get; private set; } // Gets or privately sets the unit's current stance.
+public bool AllowMove => allowMovement && Stance > UnitStance.Defend; // Determines if movement is allowed.
 
 // Armament.cs
 public virtual WDist MaxRange()
 {
-    return new WDist(Util.ApplyPercentageModifiers(Weapon.Range.Length, rangeModifiers.ToArray()));
+    return new WDist(Util.ApplyPercentageModifiers(Weapon.Range.Length, rangeModifiers.ToArray())); // Calculates the maximum range with modifiers applied.
 }
 
 // AmmoPool.cs
-public bool HasFullAmmo => CurrentAmmoCount == Info.Ammo;
+public bool HasFullAmmo => CurrentAmmoCount == Info.Ammo; // Checks if the ammo pool is full.
 ```
 ### **Why Important**
 - **Encapsulation**: Properties like `Stance` control how the stance variable is accessed and updated.
@@ -163,15 +158,15 @@ Conditionals are used to control the flow of logic, determining how code execute
 ```csharp
 // AmmoPool.cs
 if (CurrentAmmoCount <= 0 || count < 0)
-    return false;
+    return false; // Ensures ammo can't be used if there is none or the count is invalid.
 
 // AutoTarget.cs
 if (IsTraitDisabled || !Info.ScanOnIdle || Stance < UnitStance.Defend)
-    return;
+    return; // Skips scanning if the trait is disabled or other conditions aren't met.
 
 // Cargo.cs
 if (reservedWeight != 0)
-    return;
+    return; // Ensures the transport unit does not unload if weight is reserved.
 ```
 ### **Why Important**
 - **Behavioral Logic**: Determines how traits react to changes in game state.
@@ -187,13 +182,13 @@ Lists store collections of items that can be dynamically modified. They are heav
 ### **Examples**
 ```csharp
 // Cargo.cs
-readonly List<Actor> cargo = new();
+readonly List<Actor> cargo = new(); // Stores the actors loaded as cargo.
 
 // AutoTarget.cs
-public readonly IEnumerable<AttackBase> ActiveAttackBases;
+public readonly IEnumerable<AttackBase> ActiveAttackBases; // Holds a collection of attack bases currently active for an actor.
 
 // Armament.cs
-var barrels = new List<Barrel>();
+var barrels = new List<Barrel>(); // Defines a list of weapon barrels for the armament.
 ```
 ### **Why Important**
 - **Dynamic Storage**: Lists allow flexible storage of items like passengers, weapons, or traits.
@@ -209,14 +204,14 @@ Dictionaries store key-value pairs for quick lookups, enabling complex mappings 
 ### **Examples**
 ```csharp
 // Cargo.cs
-public readonly Dictionary<string, string> PassengerConditions = new();
+public readonly Dictionary<string, string> PassengerConditions = new(); // Maps passenger names to their granted conditions.
 
 // AutoTarget.cs
 [FieldLoader.Ignore]
-public readonly Dictionary<UnitStance, string> ConditionByStance = new();
+public readonly Dictionary<UnitStance, string> ConditionByStance = new(); // Maps unit stances to their corresponding conditions.
 
 // Parachutable.cs
-public readonly HashSet<string> WaterTerrainTypes = new() { "Water" };
+public readonly HashSet<string> WaterTerrainTypes = new() { "Water" }; // Defines valid terrain types for water corpses.
 ```
 ### **Why Important**
 - **Mappings**: Quickly map keys to values, such as unit types to conditions.
@@ -232,13 +227,13 @@ Type conversion is essential when working with diverse data types, ensuring comp
 ### **Examples**
 ```csharp
 // Armament.cs
-ModifiedRange = new WDist(Util.ApplyPercentageModifiers(Weapon.Range.Length, rangeModifiers.ToArray()));
+ModifiedRange = new WDist(Util.ApplyPercentageModifiers(Weapon.Range.Length, rangeModifiers.ToArray())); // Converts range modifiers to a new distance value.
 
 // AmmoPool.cs
-CurrentAmmoCount = (CurrentAmmoCount + count).Clamp(0, Info.Ammo);
+CurrentAmmoCount = (CurrentAmmoCount + count).Clamp(0, Info.Ammo); // Ensures ammo count stays within valid bounds.
 
 // AutoTarget.cs
-nextScanTime = self.World.SharedRandom.Next(Info.MinimumScanTimeInterval, Info.MaximumScanTimeInterval);
+nextScanTime = self.World.SharedRandom.Next(Info.MinimumScanTimeInterval, Info.MaximumScanTimeInterval); // Converts random values into scan timing intervals.
 ```
 ### **Why Important**
 - **Interoperability**: Ensures different types work together seamlessly.
