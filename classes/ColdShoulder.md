@@ -37,7 +37,7 @@ title: Preparing for Winter
 [OPERATION COLD SHOULDER]({{ 'classes/ColdShoulder/1949 Operation Cold Shoulder Operation Order.pdf' | relative_url }})    
 
 <div style="text-align: center; margin: 20px;">
-  <a href="https://branksome-asia.libguides.com/ss/earlycw/berlin" target="_blank" style="font-size: 18px; text-decoration: underline; color: #0645AD;">
+  <a href="https://branksome-asia.libguides.com/ss/earlycw/berlin" target="_blank" style="font-size: 18px; text-decoration: underline; color: #0a0a0a;">
     Learn More About the Berlin Blockade (1948)
   </a>
 </div>    
