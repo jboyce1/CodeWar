@@ -10,13 +10,16 @@ Variables store data that can be used and manipulated in the code. Understanding
 ```csharp
 // AmmoPool.cs
 public readonly int Ammo = 1; // Defines the total ammunition for an actor.
-public readonly string Name = "primary"; // Specifies the name of the ammo pool.
+public readonly string Name = "primary";
+-Specifies the name of the ammo pool.
 
 // Parachutable.cs
-public readonly bool KilledOnImpassableTerrain = true; // Determines if the actor dies on invalid terrain.
+public readonly bool KilledOnImpassableTerrain = true;
+-Determines if the actor dies on invalid terrain.
 
 // AutoTarget.cs
-public readonly int MinimumScanTimeInterval = 3; // Sets the minimum interval between scan actions.
+public readonly int MinimumScanTimeInterval = 3;
+-Sets the minimum interval between scan actions.
 ```
 ### **Why Important**
 - **Customization**: Variables like `Ammo` allow developers to control gameplay elements such as how much ammo a unit has.
