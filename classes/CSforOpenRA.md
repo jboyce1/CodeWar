@@ -5,8 +5,8 @@ title: CS Essential Skills
 
 # Essential C# Concepts for OpenRA Trait Modifications
 
-This guide provides an basic understanding of the essential C# concepts needed to modify traits in OpenRA.
-```
+This guide provides an basic understanding of the essential C# concepts needed to modify traits in OpenRA.    
+
 ## **1. Variables and Types**
 ### **Explanation**
 Variables store data that can be used and manipulated in the code. Understanding data types (`int`, `bool`, `string`, etc.) is critical for defining traits, tracking states, and customizing behaviors.
