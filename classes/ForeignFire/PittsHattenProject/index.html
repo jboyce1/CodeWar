@@ -176,6 +176,705 @@ Your code contains a syntax error and cannot be compiled. Review your choice and
 [[Start Over.|The Beginning]]
 </tw-passagedata>
 
+<tw-passagedata pid="8" name="Question 5" tags="" position="1050,50" size="100,100">
+<strong>Question 5:</strong> Which of the following demonstrates incorrect usage of a `readonly` variable?
+
+[[Option 1|Incorrect Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+public readonly int MaxAmmo = 50;
+</pre>
+
+[[Option 2|Incorrect Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+public readonly bool CanFly;
+public ParachutableInfo(bool canFly)
+{
+    CanFly = canFly;
+}
+</pre>
+
+[[Option 3|Incorrect Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+public readonly string UnitName = "Ranger";
+</pre>
+
+[[Option 4|Correct Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+public readonly int Damage;
+Damage = 10; // Reassigned outside of initialization.
+</pre>
+
+[[Option 5|Incorrect Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+public readonly List<string> Passengers = new();
+</pre>
+</tw-passagedata>
+
+<tw-passagedata pid="9" name="Question 6" tags="" position="1250,50" size="100,100">
+<strong>Question 6:</strong> Which of the following demonstrates incorrect use of a static method in Red Alert modding?
+
+[[Option 1|Incorrect Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+public static void ApplyDamage(Actor target, int damage)
+{
+    target.Health -= damage;
+}
+</pre>
+
+[[Option 2|Incorrect Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+public static int GetMaxAmmo()
+{
+    return AmmoPool.MaxAmmo;
+}
+</pre>
+
+[[Option 3|Correct Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+public void Tick()
+{
+    Actor.Tick();
+}
+</pre>
+
+[[Option 4|Incorrect Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+public static bool IsAlive(Actor actor)
+{
+    return actor.Health > 0;
+}
+</pre>
+
+[[Option 5|Incorrect Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+public static void DisplayMessage(string message)
+{
+    Console.WriteLine(message);
+}
+</pre>
+</tw-passagedata>
+
+<tw-passagedata pid="10" name="Question 7" tags="" position="1450,50" size="100,100">
+<strong>Question 7:</strong> Which of the following demonstrates incorrect use of a property in Red Alert modding?
+
+[[Option 1|Incorrect Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+public int Health { get; private set; }
+</pre>
+
+[[Option 2|Incorrect Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+public bool IsFlying { get; protected set; }
+</pre>
+
+[[Option 3|Incorrect Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+public string UnitType { get; set; }
+</pre>
+
+[[Option 4|Correct Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+public readonly string WeaponType { get; set; }
+</pre>
+
+[[Option 5|Incorrect Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+public double Speed { get; set; }
+</pre>
+</tw-passagedata>
+
+<tw-passagedata pid="11" name="Question 8" tags="" position="1650,50" size="100,100">
+<strong>Question 8:</strong> Which of the following demonstrates incorrect use of a `switch` statement in traits?
+
+[[Option 1|Incorrect Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+switch (stance)
+{
+    case "Attack":
+        ApplyAttackStance();
+        break;
+    case "Defend":
+        ApplyDefensiveStance();
+        break;
+    default:
+        ApplyNeutralStance();
+        break;
+}
+</pre>
+
+[[Option 2|Incorrect Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+switch (actor.Type)
+{
+    case "Infantry":
+        actor.MoveToSafeZone();
+        break;
+    case "Vehicle":
+        actor.Repair();
+        break;
+}
+</pre>
+
+[[Option 3|Incorrect Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+switch (ammoType)
+{
+    case "Primary":
+        ReloadPrimary();
+        break;
+    case "Secondary":
+        ReloadSecondary();
+        break;
+    default:
+        LogError("Unknown ammo type");
+        break;
+}
+</pre>
+
+[[Option 4|Correct Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+switch (actor.Health > 50)
+{
+    case true:
+        actor.ContinueAttacking();
+        break;
+    case false:
+        actor.Retreat();
+        break;
+}
+</pre>
+
+[[Option 5|Incorrect Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+switch (target)
+{
+    case null:
+        LogError("No target specified");
+        break;
+    default:
+        EngageTarget(target);
+        break;
+}
+</pre>
+</tw-passagedata>
+
+    <tw-passagedata pid="12" name="Question 9" tags="" position="1850,50" size="100,100">
+<strong>Question 9:</strong> Which of the following demonstrates incorrect handling of null values in traits?
+
+[[Option 1|Incorrect Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+if (target == null)
+    self.World.AddFrameMessage("No target available.");
+</pre>
+
+[[Option 2|Incorrect Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+if (self.Conditions == null)
+    self.Conditions = new List<string>();
+</pre>
+
+[[Option 3|Incorrect Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+var targetName = target?.Name ?? "Unknown Target";
+</pre>
+
+[[Option 4|Correct Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+if (self.Health == null)
+    self.Health = 100;
+</pre>
+
+[[Option 5|Incorrect Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+if (actor != null)
+    actor.Tick();
+</pre>
+</tw-passagedata>
+
+<tw-passagedata pid="13" name="Question 10" tags="" position="2050,50" size="100,100">
+<strong>Question 10:</strong> Which of the following demonstrates incorrect use of logical operators in traits?
+
+[[Option 1|Incorrect Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+if (self.Health > 0 && self.AmmoCount > 0)
+    self.ContinueFiring();
+</pre>
+
+[[Option 2|Incorrect Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+if (self.IsFlying || self.IsParachuting)
+    self.World.AddFrameMessage("Airborne unit detected!");
+</pre>
+
+[[Option 3|Incorrect Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+if (!self.IsAlive)
+    self.World.AddFrameMessage("Unit has been destroyed.");
+</pre>
+
+[[Option 4|Correct Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+if (self.Health > 0 || self.AmmoCount > 10 && self.IsFlying)
+    self.ContinueAttacking();
+</pre>
+
+[[Option 5|Incorrect Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+if (self.Health < 0 && || self.AmmoCount > 0)
+    self.Retreat();
+</pre>
+</tw-passagedata>
+
+<tw-passagedata pid="14" name="Question 11" tags="" position="2250,50" size="100,100">
+<strong>Question 11:</strong> Which of the following demonstrates incorrect use of a `foreach` loop in traits?
+
+[[Option 1|Incorrect Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+foreach (var actor in actors)
+{
+    actor.Tick();
+}
+</pre>
+
+[[Option 2|Incorrect Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+foreach (string condition in actor.Conditions)
+{
+    ApplyCondition(condition);
+}
+</pre>
+
+[[Option 3|Incorrect Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+foreach (int damage in damages)
+{
+    ApplyDamage(self, damage);
+}
+</pre>
+
+[[Option 4|Correct Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+foreach var actor in actors
+{
+    actor.Tick();
+}
+</pre>
+
+[[Option 5|Incorrect Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+foreach (var weapon in Weapons)
+{
+    ReloadWeapon(weapon);
+}
+</pre>
+</tw-passagedata>
+
+<tw-passagedata pid="15" name="Question 12" tags="" position="2450,50" size="100,100">
+<strong>Question 12:</strong> Which of the following demonstrates incorrect variable declaration in traits?
+
+[[Option 1|Incorrect Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+int ammoCount = 10;
+</pre>
+
+[[Option 2|Incorrect Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+string unitName = "Ranger";
+</pre>
+
+[[Option 3|Incorrect Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+double health = 100.5;
+</pre>
+
+[[Option 4|Correct Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+bool stance = "Attack";
+</pre>
+
+[[Option 5|Incorrect Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+var isAlive = true;
+</pre>
+</tw-passagedata>
+
+<tw-passagedata pid="16" name="Question 13" tags="" position="2650,50" size="100,100">
+<strong>Question 13:</strong> Which of the following demonstrates incorrect use of method overriding in traits?
+
+[[Option 1|Incorrect Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+public override void Created(Actor self)
+{
+    base.Created(self);
+    InitializeAmmoPool();
+}
+</pre>
+
+[[Option 2|Incorrect Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+public override void Tick(Actor self)
+{
+    base.Tick(self);
+    CheckReloadStatus();
+}
+</pre>
+
+[[Option 3|Correct Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+public void OverrideTick(Actor self)
+{
+    base.Tick(self);
+    UpdateCooldowns();
+}
+</pre>
+
+[[Option 4|Incorrect Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+public override void Damaged(Actor self, int damage)
+{
+    base.Damaged(self, damage);
+    LogDamage(damage);
+}
+</pre>
+
+[[Option 5|Incorrect Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+public override void Attacking(Actor self, Target target)
+{
+    base.Attacking(self, target);
+    ApplyDamageModifiers(target);
+}
+</pre>
+</tw-passagedata>
+
+<tw-passagedata pid="17" name="Question 14" tags="" position="2850,50" size="100,100">
+<strong>Question 14:</strong> Which of the following demonstrates incorrect use of type conversion in traits?
+
+[[Option 1|Incorrect Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+int ammo = (int)weapon.AmmoCapacity;
+</pre>
+
+[[Option 2|Correct Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+int ammo = weapon.AmmoCapacity.ToString();
+</pre>
+
+[[Option 3|Incorrect Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+double healthPercentage = (double)self.Health / self.MaxHealth;
+</pre>
+
+[[Option 4|Incorrect Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+string unitName = self.Info.Name.ToString();
+</pre>
+
+[[Option 5|Incorrect Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+var adjustedRange = (int)(range * modifier);
+</pre>
+</tw-passagedata>
+
+<tw-passagedata pid="18" name="Question 15" tags="" position="3050,50" size="100,100">
+<strong>Question 15:</strong> Which of the following demonstrates incorrect use of default values in traits?
+
+[[Option 1|Incorrect Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+public int AmmoCount = 0;
+</pre>
+
+[[Option 2|Incorrect Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+public string UnitType = "Infantry";
+</pre>
+
+[[Option 3|Correct Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+public readonly int MaxHealth = null;
+</pre>
+
+[[Option 4|Incorrect Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+public double Speed = 1.5;
+</pre>
+
+[[Option 5|Incorrect Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+public bool IsFlying = true;
+</pre>
+</tw-passagedata>
+
+<tw-passagedata pid="19" name="Question 16" tags="" position="3250,50" size="100,100">
+<strong>Question 16:</strong> Which of the following demonstrates incorrect use of an indexer in traits?
+
+[[Option 1|Incorrect Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+var firstWeapon = Weapons[0];
+</pre>
+
+[[Option 2|Incorrect Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+actor.Conditions[0] = "Shielded";
+</pre>
+
+[[Option 3|Incorrect Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+var targetHealth = targets[1].Health;
+</pre>
+
+[[Option 4|Correct Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+actor.Traits.1 = "NewTrait";
+</pre>
+
+[[Option 5|Incorrect Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+var ammoType = AmmoTypes["Primary"];
+</pre>
+</tw-passagedata>
+
+<tw-passagedata pid="20" name="Question 17" tags="" position="3450,50" size="100,100">
+<strong>Question 17:</strong> Which of the following demonstrates incorrect handling of attributes in Red Alert traits?
+
+[[Option 1|Incorrect Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+[AttributeUsage(AttributeTargets.Class)]
+public sealed class TraitAttribute : Attribute { }
+</pre>
+
+[[Option 2|Incorrect Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+[AttributeUsage(AttributeTargets.Field)]
+public sealed class VoiceSetReferenceAttribute : Attribute { }
+</pre>
+
+[[Option 3|Correct Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+[AttributeUsage(AttributeTargets.Int)]
+public sealed class InvalidAttribute : Attribute { }
+</pre>
+
+[[Option 4|Incorrect Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+[AttributeUsage(AttributeTargets.Property)]
+public sealed class StanceReferenceAttribute : Attribute { }
+</pre>
+
+[[Option 5|Incorrect Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+[AttributeUsage(AttributeTargets.Method)]
+public sealed class ActionAttribute : Attribute { }
+</pre>
+</tw-passagedata>
+
+<tw-passagedata pid="21" name="Question 18" tags="" position="3650,50" size="100,100">
+<strong>Question 18:</strong> Which of the following demonstrates incorrect use of class inheritance in traits?
+
+[[Option 1|Incorrect Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+public class ParachutableInfo : TraitInfo { }
+</pre>
+
+[[Option 2|Incorrect Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+public class CargoInfo : TraitInfo { }
+</pre>
+
+[[Option 3|Incorrect Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+public class AmmoPoolInfo : TraitInfo { }
+</pre>
+
+[[Option 4|Correct Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+public class Weapon : AmmoPoolInfo { }
+</pre>
+
+[[Option 5|Incorrect Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+public class AutoTargetInfo : TraitInfo { }
+</pre>
+</tw-passagedata>
+
+<tw-passagedata pid="22" name="Question 19" tags="" position="3850,50" size="100,100">
+<strong>Question 19:</strong> Which of the following demonstrates incorrect use of `base` in overridden methods?
+
+[[Option 1|Incorrect Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+public override void Created(Actor self)
+{
+    base.Created(self);
+    InitializeTraits();
+}
+</pre>
+
+[[Option 2|Incorrect Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+public override void Tick(Actor self)
+{
+    base.Tick(self);
+    UpdateConditions();
+}
+</pre>
+
+[[Option 3|Incorrect Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+public override void Damaged(Actor self, int damage)
+{
+    base.Damaged(self, damage);
+    ApplyDefenseModifiers(damage);
+}
+</pre>
+
+[[Option 4|Correct Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+public override void Created()
+{
+    base.Initialize();
+}
+</pre>
+
+[[Option 5|Incorrect Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+public override void Attacking(Actor self, Target target)
+{
+    base.Attacking(self, target);
+    LogAttack(target);
+}
+</pre>
+</tw-passagedata>
+
+<tw-passagedata pid="23" name="Question 20" tags="" position="4050,50" size="100,100">
+<strong>Question 20:</strong> Which of the following demonstrates incorrect instantiation of objects in traits?
+
+[[Option 1|Incorrect Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+var ammoPool = new AmmoPoolInfo();
+</pre>
+
+[[Option 2|Correct Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+var trait = new TraitInfo();
+</pre>
+
+[[Option 3|Incorrect Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+var weapon = new WeaponInfo();
+</pre>
+
+[[Option 4|Incorrect Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+var cargo = new CargoInfo();
+</pre>
+
+[[Option 5|Incorrect Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+var autoTarget = new AutoTargetInfo();
+</pre>
+</tw-passagedata>
+<tw-passagedata pid="24" name="Question 21" tags="" position="4250,50" size="100,100">
+<strong>Question 21:</strong> Which of the following demonstrates incorrect use of lambda expressions in Red Alert modding?
+
+[[Option 1|Incorrect Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+var targets = actors.Where(actor => actor.Health > 0);
+</pre>
+
+[[Option 2|Incorrect Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+var highDamageWeapons = weapons.Select(weapon => weapon.Damage > 50);
+</pre>
+
+[[Option 3|Incorrect Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+var validTargets = targets.Where(target => target != null);
+</pre>
+
+[[Option 4|Correct Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+var actors = actors.FindAll(actor => actor.Type == Infantry);
+</pre>
+
+[[Option 5|Incorrect Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+var damagedUnits = units.Where(unit => unit.Health < unit.MaxHealth);
+</pre>
+</tw-passagedata>
+
+<tw-passagedata pid="25" name="Question 22" tags="" position="4450,50" size="100,100">
+<strong>Question 22:</strong> Which of the following demonstrates incorrect use of a delegate in traits?
+
+[[Option 1|Incorrect Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+public delegate void ActionHandler(Actor actor);
+</pre>
+
+[[Option 2|Incorrect Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+public delegate int DamageCalculator(Actor actor);
+</pre>
+
+[[Option 3|Correct Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+public delegate int AmmoPool(actor);
+</pre>
+
+[[Option 4|Incorrect Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+public delegate bool TargetSelector(Target target);
+</pre>
+
+[[Option 5|Incorrect Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+public delegate string ActorNameFormatter(Actor actor);
+</pre>
+</tw-passagedata>
+<tw-passagedata pid="26" name="Congratulations" tags="" position="4650,50" size="100,100">
+<strong>Congratulations!</strong> 🎉 You have successfully completed the 22-question C# quiz and proven your knowledge of Red Alert modding concepts.
+
+Your reward is the following traits to include in the YAML file. Copy and paste them into your file with tab size 2 indentations (not spaces).
+
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+Warhead@1Dam_impact: SpreadDamage
+  Spread: 1c0
+  Damage: 15000
+  Falloff: 1000, 368, 135, 50, 18, 7, 0
+  ValidTargets: GroundActor, WaterActor, Underwater, AirborneActor, Trees
+  Versus:
+    Wood: 25
+    Concrete: 25
+  DamageTypes: Prone50Percent, TriggerProne, FireDeath, Incendiary
+
+Warhead@2Res_impact: DestroyResource
+  Size: 1
+
+Warhead@3Smu_impact: LeaveSmudge
+  SmudgeType: Scorch
+  ValidTargets: Ground, Infantry
+  Size: 1
+
+Warhead@4Eff_impact: CreateEffect
+  Explosions: nuke
+  ImpactSounds: kaboom1.aud
+  ImpactActors: false
+  ValidTargets: Ground, Water, Air
+
+Warhead@5Dam_areanuke1: SpreadDamage
+  Spread: 2c0
+  Damage: 6000
+  Falloff: 1000, 368, 135, 50, 18, 7, 0
+  Delay: 5
+  ValidTargets: GroundActor, WaterActor, Underwater, AirborneActor, Trees
+  Versus:
+    Wood: 25
+    Concrete: 25
+  DamageTypes: Prone50Percent, TriggerProne, FireDeath, Incendiary
+</pre>
+
+Keep up the great work, and enjoy creating awesome mods for Red Alert!
+[[Restart Quiz|The Beginning]]
+</tw-passagedata>
 
 </tw-storydata>
 <script title="Twine engine code" data-main="harlowe">(function(){"use strict";
