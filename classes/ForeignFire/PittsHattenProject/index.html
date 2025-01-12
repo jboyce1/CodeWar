@@ -20,24 +20,24 @@ Welcome to the C# Quiz! Your task is to identify correct or incorrect implementa
 <tw-passagedata pid="2" name="Question 1" tags="" position="250,50" size="100,100">
 <strong>Question 1:</strong> Which of the following demonstrates incorrect usage of the `\n` escape character?
 
-<pre style="font-family: Consolas; font-size: 14px; background-color: #f8f8f8; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
 string message = $"Unit {self.Info.Name} is out of ammo.\nReload required!";
 </pre>
 
-<pre style="font-family: Consolas; font-size: 14px; background-color: #f8f8f8; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
 self.World.AddFrameMessage($"Unit {self.Info.Name} has {self.Health}% health.\nKeep defending!");
 </pre>
 
-<pre style="font-family: Consolas; font-size: 14px; background-color: #f8f8f8; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
 string alertMessage = "Alert:\nEnemy forces are approaching!";
 self.World.AddFrameMessage(alertMessage);
 </pre>
 
-<pre style="font-family: Consolas; font-size: 14px; background-color: #f8f8f8; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
 self.World.AddFrameMessage("Warning:\nThis is an error\n.");
 </pre>
 
-<pre style="font-family: Consolas; font-size: 14px; background-color: #f8f8f8; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
 string invalidUsage = "New-line \\n syntax is not interpreted here.";
 self.World.AddFrameMessage(invalidUsage);
 </pre>
@@ -52,25 +52,25 @@ self.World.AddFrameMessage(invalidUsage);
 <tw-passagedata pid="3" name="Question 2" tags="" position="450,50" size="100,100">
 <strong>Question 2:</strong> Which of the following demonstrates incorrect string interpolation in Red Alert modding?
 
-<pre style="font-family: Consolas; font-size: 14px; background-color: #f8f8f8; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
 string message = $"Unit {self.Info.Name} has been destroyed.";
 </pre>
 
-<pre style="font-family: Consolas; font-size: 14px; background-color: #f8f8f8; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
 self.World.AddFrameMessage($"Target acquired: {target.Name}");
 </pre>
 
-<pre style="font-family: Consolas; font-size: 14px; background-color: #f8f8f8; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
 string error = $"Error: {self.Info.Name} cannot attack this target.";
 self.World.AddFrameMessage(error);
 </pre>
 
-<pre style="font-family: Consolas; font-size: 14px; background-color: #f8f8f8; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
 string invalid = "Unit " + self.Info.Name " is under attack.";
 self.World.AddFrameMessage(invalid);
 </pre>
 
-<pre style="font-family: Consolas; font-size: 14px; background-color: #f8f8f8; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
 string report = $"Unit {self.Info.Name} has {ammoCount} ammo remaining.";
 self.World.AddFrameMessage(report);
 </pre>
