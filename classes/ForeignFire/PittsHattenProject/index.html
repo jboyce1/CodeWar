@@ -9,226 +9,92 @@
 </head>
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play.</tw-noscript></noscript></tw-story>
-<tw-storydata name="OpenRA C# Quiz" startnode="1" creator="Twine" creator-version="2.3.9" format="Harlowe" format-version="3.1.0" ifid="1234ABCD-5678-EFGH-IJKL-9876543210MN" zoom="1" hidden>
+<tw-storydata name="C# Quiz: Red Alert Traits" startnode="1" creator="Twine" creator-version="2.3.9" format="Harlowe" format-version="3.1.0" ifid="5678ABCD-1234-EFGH-IJKL-1234567890MN" zoom="1" hidden>
 
 <tw-passagedata pid="1" name="The Beginning" tags="" position="50,50" size="100,100">
-Welcome to the OpenRA C# Quiz. Your task is to demonstrate your knowledge of C# concepts by selecting the correct answers. Each correct choice progresses you forward, while incorrect choices may end your session.
+Welcome to the C# Quiz! Your task is to identify correct or incorrect implementations in Red Alert modding. Make your choices carefully to demonstrate your understanding of the course.
 
-[[Begin Quiz|Question 1]]
+[[Start the quiz.|Question 1]]
 </tw-passagedata>
 
 <tw-passagedata pid="2" name="Question 1" tags="" position="250,50" size="100,100">
-### Question 1: String New-Line in Red Alert Modding
+<strong>Question 1:</strong> Which of the following demonstrates incorrect usage of the `\n` escape character?
 
-Which of the following snippets **does NOT** correctly demonstrate the use of the `\n` escape character?
+<pre style="font-family: Consolas; font-size: 14px; background-color: #f8f8f8; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+string message = $"Unit {self.Info.Name} is out of ammo.\nReload required!";
+</pre>
 
-[[Snippet 1|Incorrect Q1]]
-```csharp
-self.World.AddFrameMessage("Target acquired!\nPrepare for attack.");
-```
-[[Snippet 2|Incorrect Q1]]
-```csharp
-string message = "Unit destroyed.\nFallback immediately!";
-self.World.AddFrameMessage(message);
-```
-[[Snippet 3|Incorrect Q1]]
-```csharp
-self.World.AddFrameMessage($"Resource gained:\n{resourceAmount} credits.");
-```
-[[Snippet 4|Correct Q1]]
-```csharp
-self.World.AddFrameMessage("This is an error \n due to incorrect spacing.");
-```
-[[Snippet 5|Incorrect Q1]]
-```csharp
-self.World.AddFrameMessage("Ammo depleted.\nFind a reload station.");
-```
+<pre style="font-family: Consolas; font-size: 14px; background-color: #f8f8f8; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+self.World.AddFrameMessage($"Unit {self.Info.Name} has {self.Health}% health.\nKeep defending!");
+</pre>
+
+<pre style="font-family: Consolas; font-size: 14px; background-color: #f8f8f8; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+string alertMessage = "Alert:\nEnemy forces are approaching!";
+self.World.AddFrameMessage(alertMessage);
+</pre>
+
+<pre style="font-family: Consolas; font-size: 14px; background-color: #f8f8f8; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+self.World.AddFrameMessage("Warning:\nThis is an error\n.");
+</pre>
+
+<pre style="font-family: Consolas; font-size: 14px; background-color: #f8f8f8; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+string invalidUsage = "New-line \\n syntax is not interpreted here.";
+self.World.AddFrameMessage(invalidUsage);
+</pre>
+
+[[Option 1|Incorrect Response]]
+[[Option 2|Incorrect Response]]
+[[Option 3|Incorrect Response]]
+[[Option 4|Correct Response]]
+[[Option 5|Incorrect Response]]
 </tw-passagedata>
 
-<tw-passagedata pid="3" name="Correct Q1" tags="" position="450,50" size="100,100">
-Correct! The snippet incorrectly demonstrates spacing around `\n`, which disrupts readability.
+<tw-passagedata pid="3" name="Question 2" tags="" position="450,50" size="100,100">
+<strong>Question 2:</strong> Which of the following demonstrates incorrect string interpolation in Red Alert modding?
 
-[[Proceed to Question 2|Question 2]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #f8f8f8; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+string message = $"Unit {self.Info.Name} has been destroyed.";
+</pre>
+
+<pre style="font-family: Consolas; font-size: 14px; background-color: #f8f8f8; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+self.World.AddFrameMessage($"Target acquired: {target.Name}");
+</pre>
+
+<pre style="font-family: Consolas; font-size: 14px; background-color: #f8f8f8; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+string error = $"Error: {self.Info.Name} cannot attack this target.";
+self.World.AddFrameMessage(error);
+</pre>
+
+<pre style="font-family: Consolas; font-size: 14px; background-color: #f8f8f8; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+string invalid = "Unit " + self.Info.Name " is under attack.";
+self.World.AddFrameMessage(invalid);
+</pre>
+
+<pre style="font-family: Consolas; font-size: 14px; background-color: #f8f8f8; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+string report = $"Unit {self.Info.Name} has {ammoCount} ammo remaining.";
+self.World.AddFrameMessage(report);
+</pre>
+
+[[Option 1|Incorrect Response]]
+[[Option 2|Incorrect Response]]
+[[Option 3|Incorrect Response]]
+[[Option 4|Correct Response]]
+[[Option 5|Incorrect Response]]
 </tw-passagedata>
 
-<tw-passagedata pid="4" name="Incorrect Q1" tags="" position="250,150" size="100,100">
-Your choice was incorrect. The snippet uses the `\n` escape character correctly. Try again.
+<tw-passagedata pid="4" name="Correct Response" tags="" position="1250,50" size="100,100">
+Your choice is correct! Proceed to the next question.
 
-[[Retry Question 1|Question 1]]
+[[Next Question.|Question 2]]
 </tw-passagedata>
 
-<tw-passagedata pid="5" name="Question 2" tags="" position="650,50" size="100,100">
-### Question 2: String Interpolation in Red Alert Modding
+<tw-passagedata pid="5" name="Incorrect Response" tags="" position="1250,150" size="100,100">
+<strong>Error:</strong> Compilation failed.
 
-Which of the following snippets **does NOT** correctly demonstrate string interpolation?
+Your code contains a syntax error and cannot be compiled. Review your choice and try again.
 
-[[Snippet 1|Incorrect Q2]]
-```csharp
-string message = $"Unit {self.Info.Name} is out of ammo.";
-self.World.AddFrameMessage(message);
-```
-[[Snippet 2|Incorrect Q2]]
-```csharp
-self.World.AddFrameMessage($"Unit {actor.Info.Name} destroyed!");
-```
-[[Snippet 3|Incorrect Q2]]
-```csharp
-string resourceMessage = $"Resource collected: {credits} credits.";
-self.World.AddFrameMessage(resourceMessage);
-```
-[[Snippet 4|Correct Q2]]
-```csharp
-self.World.AddFrameMessage("Resource gained: $credits credits.");
-```
-[[Snippet 5|Incorrect Q2]]
-```csharp
-self.World.AddFrameMessage($"Kill count: {actor.KillCount}");
-```
+[[Start Over.|The Beginning]]
 </tw-passagedata>
-
-<tw-passagedata pid="6" name="Correct Q2" tags="" position="850,50" size="100,100">
-Correct! The snippet incorrectly uses `$credits` as a literal string instead of correctly applying string interpolation.
-
-[[Proceed to Question 3|Question 3]]
-</tw-passagedata>
-
-<tw-passagedata pid="7" name="Incorrect Q2" tags="" position="650,150" size="100,100">
-Your choice was incorrect. The snippet correctly demonstrates string interpolation. Try again.
-
-[[Retry Question 2|Question 2]]
-</tw-passagedata>
-
-<tw-passagedata pid="8" name="Question 3" tags="" position="1050,50" size="100,100">
-### Question 3: Conditional Logic in Traits
-
-Which of the following snippets **does NOT** use conditional logic correctly?
-
-[[Snippet 1|Incorrect Q3]]
-```csharp
-if (self.Health &gt; 0)
-    self.World.AddFrameMessage("Unit is alive.");
-```
-[[Snippet 2|Incorrect Q3]]
-```csharp
-if (actor.Health == 0 &amp;&amp; !actor.IsDead)
-    actor.Die();
-```
-[[Snippet 3|Incorrect Q3]]
-```csharp
-if (CurrentAmmoCount &gt; 0 || weapon.IsReloading)
-    FireWeapon();
-```
-[[Snippet 4|Correct Q3]]
-```csharp
-if (stance = "Attack")
-    ApplyAttackStance();
-```
-[[Snippet 5|Incorrect Q3]]
-```csharp
-if (self.IsFlying || actor.HasParachute)
-    DeployParachute();
-```
-</tw-passagedata>
-
-<tw-passagedata pid="9" name="Correct Q3" tags="" position="1250,50" size="100,100">
-Correct! The snippet uses the assignment operator `=` instead of the equality operator `==`, which is incorrect in this context.
-
-[[Proceed to Question 4|Question 4]]
-</tw-passagedata>
-
-<tw-passagedata pid="10" name="Incorrect Q3" tags="" position="1050,150" size="100,100">
-Your choice was incorrect. The snippet correctly demonstrates conditional logic. Try again.
-
-[[Retry Question 3|Question 3]]
-</tw-passagedata>
-
-<tw-passagedata pid="11" name="Question 4" tags="" position="1450,50" size="100,100">
-### Question 4: Using `foreach` Loops in Traits
-
-Which of the following snippets **does NOT** demonstrate proper usage of the `foreach` loop?
-
-[[Snippet 1|Incorrect Q4]]
-```csharp
-foreach (var trait in self.Traits)
-{
-    trait.Tick();
-}
-```
-[[Snippet 2|Incorrect Q4]]
-```csharp
-foreach (string condition in actor.Conditions)
-{
-    ApplyCondition(condition);
-}
-```
-[[Snippet 3|Incorrect Q4]]
-```csharp
-foreach (int damage in damages)
-{
-    ApplyDamage(self, damage);
-}
-```
-[[Snippet 4|Correct Q4]]
-```csharp
-foreach var target in targets
-{
-    AttackTarget(target);
-}
-```
-[[Snippet 5|Incorrect Q4]]
-```csharp
-foreach (var weapon in Weapons)
-{
-    ReloadWeapon(weapon);
-}
-```
-</tw-passagedata>
-
-<tw-passagedata pid="12" name="Correct Q4" tags="" position="1650,50" size="100,100">
-Correct! The snippet is missing parentheses `()` around the loop declaration, making it invalid.
-
-[[Proceed to Question 5|Question 5]]
-</tw-passagedata>
-
-<tw-passagedata pid="13" name="Incorrect Q4" tags="" position="1450,150" size="100,100">
-Your choice was incorrect. The snippet correctly demonstrates a proper `foreach` loop. Try again.
-
-[[Retry Question 4|Question 4]]
-</tw-passagedata>
-
-<tw-passagedata pid="14" name="Question 5" tags="" position="1850,50" size="100,100">
-### Question 5: Method Overriding in Traits
-
-Which of the following snippets **does NOT** correctly demonstrate method overriding?
-
-[[Snippet 1|Incorrect Q5]]
-```csharp
-public override void Created(Actor self)
-{
-    base.Created(self);
-    InitializeAmmoPool();
-}
-```
-[[Snippet 2|Incorrect Q5]]
-```csharp
-public override void Tick(Actor self)
-{
-    base.Tick(self);
-    CheckReloadStatus();
-}
-```
-[[Snippet 3|Incorrect Q5]]
-```csharp
-public override void Attacking(Actor self, Target target)
-{
-    base.Attacking(self, target);
-    ApplyDamageModifiers(target);
-}
-```
-[[Snippet 4|Correct Q5]]
-```csharp
-public void
-
 
 </tw-storydata>
 <script title="Twine engine code" data-main="harlowe">(function(){"use strict";
