@@ -55,49 +55,127 @@ self.World.AddFrameMessage(invalidUsage);
 <tw-passagedata pid="3" name="Question 2" tags="" position="450,50" size="100,100">
 <strong>Question 2:</strong> Which of the following demonstrates incorrect string interpolation in Red Alert modding?
 
+[[Option 1|Incorrect Response]]
 <pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
 string message = $"Unit {self.Info.Name} has been destroyed.";
 </pre>
 
+[[Option 2|Incorrect Response]]
 <pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
 self.World.AddFrameMessage($"Target acquired: {target.Name}");
 </pre>
 
+[[Option 3|Incorrect Response]]
 <pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
 string error = $"Error: {self.Info.Name} cannot attack this target.";
 self.World.AddFrameMessage(error);
 </pre>
 
+[[Option 4|Correct Response]]
 <pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
 string invalid = "Unit " + self.Info.Name " is under attack.";
 self.World.AddFrameMessage(invalid);
 </pre>
 
+[[Option 5|Incorrect Response]]
 <pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
 string report = $"Unit {self.Info.Name} has {ammoCount} ammo remaining.";
 self.World.AddFrameMessage(report);
 </pre>
+</tw-passagedata>
+
+<tw-passagedata pid="4" name="Question 3" tags="" position="650,50" size="100,100">
+<strong>Question 3:</strong> Which of the following uses conditionals incorrectly in traits?
 
 [[Option 1|Incorrect Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+if (self.Health <= 0)
+    self.Die();
+</pre>
+
 [[Option 2|Incorrect Response]]
-[[Option 3|Incorrect Response]]
-[[Option 4|Correct Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+if (CurrentAmmoCount > 0 && target != null)
+    FireWeapon(target);
+</pre>
+
+[[Option 3|Correct Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+if (stance = "Attack")
+    ApplyAttackStance();
+</pre>
+
+[[Option 4|Incorrect Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+if (!self.IsFlying)
+    self.Land();
+</pre>
+
 [[Option 5|Incorrect Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+if (self.IsAlive || self.Health > 50)
+    self.ContinueAttacking();
+</pre>
 </tw-passagedata>
 
-<tw-passagedata pid="4" name="Correct Response" tags="" position="1250,50" size="100,100">
+<tw-passagedata pid="5" name="Question 4" tags="" position="850,50" size="100,100">
+<strong>Question 4:</strong> Identify the incorrect use of a loop in traits.
+
+[[Option 1|Incorrect Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+foreach (var actor in actors)
+{
+    actor.Tick();
+}
+</pre>
+
+[[Option 2|Incorrect Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+for (int i = 0; i < weapons.Length; i++)
+{
+    weapons[i].Reload();
+}
+</pre>
+
+[[Option 3|Incorrect Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+while (self.Health > 0)
+{
+    self.ContinueAttacking();
+}
+</pre>
+
+[[Option 4|Correct Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+foreach var actor in actors
+{
+    actor.Tick();
+}
+</pre>
+
+[[Option 5|Incorrect Response]]
+<pre style="font-family: Consolas; font-size: 14px; background-color: #454141; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+foreach (string condition in conditions)
+{
+    actor.ApplyCondition(condition);
+}
+</pre>
+</tw-passagedata>
+
+<tw-passagedata pid="6" name="Correct Response" tags="" position="1250,50" size="100,100">
 Your choice is correct! Proceed to the next question.
 
-[[Next Question.|Question 2]]
+[[Next Question.|Question 3]]
 </tw-passagedata>
 
-<tw-passagedata pid="5" name="Incorrect Response" tags="" position="1250,150" size="100,100">
+<tw-passagedata pid="7" name="Incorrect Response" tags="" position="1250,150" size="100,100">
 <strong>Error:</strong> Compilation failed.
 
 Your code contains a syntax error and cannot be compiled. Review your choice and try again.
 
 [[Start Over.|The Beginning]]
 </tw-passagedata>
+
 
 </tw-storydata>
 <script title="Twine engine code" data-main="harlowe">(function(){"use strict";
