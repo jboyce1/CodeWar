@@ -12,24 +12,7 @@ In this course, students will delve into Cold War history by transforming the vi
 
 ### Course Modules and Classes
 
-- [Preparing for Winter](./classes/PreparingForWinter)
-- [Cold Shoulder](./classes/ColdShoulder)
-- [Enemies From Within](./classes/EnemiesFromWithin)
-- [A Fire in Another Land](./AFireInAnotherLand)
-- [Intelligence Everywhere and Nowhere](./IntelligenceEverywhereAndNowhere)
-- [The Kettle is About to Boil Over](./TheKettleIsAboutToBoilOver)
-- [A River Runs Red](./ARiverRunsRed)
-- [Bridges Across the Divide](./BridgesAcrossTheDivide)
-- [Frozen Fronts](./FrozenFronts)
-- [Westward Bound](./WestwardBound)
-- [Echoes of a Broken Ice](./EchoesOfABrokenIce)
-- [Threads of Steel](./ThreadsOfSteel)
-- [The Ticking Clock](./TheTickingClock)
-- [Frosted Alliances](./FrostedAlliances)
-- [Shifting Icebergs](./ShiftingIcebergs)
-- [Cold Dawn](./ColdDawn)
-- [The Final Chill](./TheFinalChill)
-- [The Edge of Winter](./TheEdgeOfWinter)
-- [The Long Cold Night](./TheLongColdNight)
-- [Thawing Ice](./ThawingIce)
-
+- [Preparing for Winter 1948](./classes/PreparingForWinter)
+- [Cold Shoulder 1949](./classes/ColdShoulder)
+- [ForeignFire 1949](./ForeignFire)
+- [Enemies From Within 1950](./classes/EnemiesFromWithin)
