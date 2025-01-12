@@ -8,10 +8,9 @@ title: Enemies From Within
 **Focus**: Development of Soviet Atomic Capabilities
 
 <div style="text-align: center;">
-  <img src="{{ 'classes/ForeignFire/joe-1-2.jpg' | relative_url }}" alt="RDS-1, The First Soviet Atomic Bomb" style="max-width: 80%; height: auto;">
+  <img src="{{ 'classes/ForeignFire/joe-1-2.jpg' | relative_url }}" alt="RDS-1, The First Soviet Atomic Bomb" style="max-width: 80%; height: auto;">    
+  <p>RDS-1, The First Soviet Atomic Bomb</p>
 </div>
-RDS-1, The First Soviet Atomic Bomb
-
 
 ### Lecture: The A-Bomb
 
@@ -21,10 +20,10 @@ RDS-1, The First Soviet Atomic Bomb
 - Soviet Progress on Atomic Weapons
 
 
-  **Update 1:**[Status of the USSR Atomic Energy 1JAN1949]({{ 'classes/ForeignFire/Status of the USSR Atomic Energy 1JAN1949.pdf' | relative_url }})
+  **Update 1:**[Status of the USSR Atomic Energy 1JAN1949]({{ 'classes/ForeignFire/Status of the USSR Atomic Energy 1JAN1949.pdf' | relative_url }})    
   **Update 2:**[Status of the USSR Atomic Energy 19JUL1949]({{ 'classes/ForeignFire/Status of the USSR Atomic Energy 19JUL1949.pdf' | relative_url }})  
 
-   ### Practical Exercise- Command and Conquer: 1949    
+### Practical Exercise- The PittsHatten Project:    
 [OPERATION PITTSHATTEN PROJECT]({{ 'classes/ForeignFire/1949 Operation PittsHatten Project.pdf' | relative_url }})    
 
 
