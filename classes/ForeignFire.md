@@ -59,7 +59,7 @@ title: Enemies From Within
 </div>
 
 <div style="text-align: center;">
-  <p>Former Spy Interview</p>
+  <p>The Consequences of Soviet Espionage</p>
   <video width="560" height="315" controls>
     <source src="{{ 'classes/ForeignFire/Klaus Fuchs and the Russian Atomic Bomb.mp4' | relative_url }}" type="video/mp4">
     Your browser does not support the video tag.
