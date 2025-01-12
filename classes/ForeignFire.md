@@ -25,12 +25,11 @@ title: Enemies From Within
 
 ### Practical Exercise- The PittsHatten Project:    
 [OPERATION PITTSHATTEN PROJECT]({{ 'classes/ForeignFire/1949 Operation PittsHatten Project.pdf' | relative_url }})    
-
-
-  
+    
+    
+     
 <div style="text-align: center;">
   <p>And then there were two...</p>
-  <p>RDS-1</p>
   <video width="560" height="315" controls>
     <source src="{{ 'classes/ForeignFire/1st Russian Atomic Bomb RDS-1.mp4' | relative_url }}" type="video/mp4">
     Your browser does not support the video tag.
