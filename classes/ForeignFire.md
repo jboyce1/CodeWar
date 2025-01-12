@@ -47,7 +47,7 @@ title: Enemies From Within
   <p>-------------------------------------------------------------------------</p>
 </div>
 
-### How We Got Here 
+## How We Got Here 
 [A History Of Soviet MGB Penetration]({{ 'classes/ForeignFire/II. ORGANIZATION OF SOVIE[15573746].pdf' | relative_url }})  
 
 <div style="text-align: center;">
