@@ -30,9 +30,7 @@ title: Enemies From Within
 
   **Update 1:**[Status of the USSR Atomic Energy 1JAN1949]({{ 'classes/ForeignFire/Status of the USSR Atomic Energy 1JAN1949.pdf' | relative_url }})    
   **Update 2:**[Status of the USSR Atomic Energy 19JUL1949]({{ 'classes/ForeignFire/Status of the USSR Atomic Energy 19JUL1949.pdf' | relative_url }})  
-<div style="text-align: center;">
-  <p>-------------------------------------------------------------------------</p>
-</div>
+
 ### Practical Exercise- The PittsHatten Project: 
   <a href="https://jboyce1.github.io/CodeWar/classes/CSforOpenRA" target="_blank" style="font-size: 18px; text-decoration: underline; color: #0a0a0a;">
     Essential C# Concepts for OpenRA Trait Modifications
@@ -40,8 +38,10 @@ title: Enemies From Within
   
 [OPERATION PITTSHATTAN PROJECT]({{ 'classes/ForeignFire/1949 Operation PittsHattan Project.pdf' | relative_url }})    
     
-    
-     
+ <div style="text-align: center;">
+  <p>-------------------------------------------------------------------------</p>
+</div>    
+
 <div style="text-align: center;">
   <p>And then there were two...</p>
   <video width="560" height="315" controls>
