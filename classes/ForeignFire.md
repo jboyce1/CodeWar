@@ -66,5 +66,20 @@ title: Enemies From Within
   </video>
 </div>   
 
+### Lecture: NATO
+**Laying the foundation:**
+- Post WWII Security Vacuum
+- Truman Doctrine (1947)
+- Marshall Plan (1948)
+- Soviet expansion
+- Atomic Bomb Test
+**North Atlantic Treat Organization:**
+- 4 April 1949, 12 members
+- Collective defense (Article 5)
+- Collective military planning
+- US shift from isolationism to global engagement
+<div style="text-align: center;">
+  <p>-------------------------------------------------------------------------</p>
+</div>
   
 [Return to Home](../)
