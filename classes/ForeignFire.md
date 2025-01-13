@@ -34,7 +34,7 @@ title: Enemies From Within
   <p>-------------------------------------------------------------------------</p>
 </div>
 ### Practical Exercise- The PittsHatten Project:    
-[OPERATION PITTSHATTEN PROJECT]({{ 'classes/ForeignFire/1949 Operation PittsHatten Project.pdf' | relative_url }})    
+[OPERATION PITTSHATTAN PROJECT]({{ 'classes/ForeignFire/1949 Operation PittsHattan Project.pdf' | relative_url }})    
     
     
      
