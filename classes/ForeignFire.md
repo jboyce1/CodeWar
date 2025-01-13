@@ -33,7 +33,10 @@ title: Enemies From Within
 <div style="text-align: center;">
   <p>-------------------------------------------------------------------------</p>
 </div>
-### Practical Exercise- The PittsHatten Project:    
+### Practical Exercise- The PittsHatten Project: 
+  <a href="https://jboyce1.github.io/CodeWar/classes/CSforOpenRA" target="_blank" style="font-size: 18px; text-decoration: underline; color: #0a0a0a;">
+    Essential C# Concepts for OpenRA Trait Modifications
+  </a>
 [OPERATION PITTSHATTAN PROJECT]({{ 'classes/ForeignFire/1949 Operation PittsHattan Project.pdf' | relative_url }})    
     
     
