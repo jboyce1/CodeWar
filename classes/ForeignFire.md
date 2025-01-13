@@ -9,7 +9,7 @@ title: Enemies From Within
 
 <div style="text-align: center;">
   <img src="{{ 'classes/ForeignFire/joe-1-2.jpg' | relative_url }}" alt="RDS-1, The First Soviet Atomic Bomb" style="max-width: 80%; height: auto;">    
-  <p>RDS-1, The First Soviet Atomic Bomb</p>
+  <p>RDS-1 "First Lightning", The First Soviet Atomic Bomb</p>
 </div>
 
 ### Lecture: The A-Bomb
@@ -17,7 +17,10 @@ title: Enemies From Within
 **Key points:**
 - Manhatten Project
 - US Monopoly on Atomic Weapons
-- Soviet Progress on Atomic Weapons
+- - Atomic Diplomacy in Potsdam Conference
+- - US global military power
+- Containment Strategy
+- 
 <div style="text-align: center;">
   <p>-------------------------------------------------------------------------</p>
 </div>
