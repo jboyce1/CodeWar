@@ -82,7 +82,7 @@ title: Enemies From Within
 - Truman Doctrine (1947)
 - Marshall Plan (1948)
 - Soviet expansion
-- Atomic Bomb Test
+- Atomic Bomb Test    
 **North Atlantic Treat Organization:**
 - 4 April 1949, 12 members
 - Collective defense (Article 5)
