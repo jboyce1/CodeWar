@@ -15,7 +15,7 @@ title: Enemies From Within
 ### Lecture: The A-Bomb
 
 **Key points:**
-- Manhatten Project
+- Manhattan Project
 - US Monopoly on Atomic Weapons
   - Atomic Diplomacy in Potsdam Conference (1945)
   - US global military power
