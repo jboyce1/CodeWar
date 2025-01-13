@@ -1,4 +1,4 @@
-# PittsHatten Project Answer Key for OpenRA Trait Modifications
+# PittsHattan Project Answer Key for OpenRA Trait Modifications
 
 This document provides explanations for the answers to the 22-question quiz on essential C# concepts for OpenRA trait modifications.
 
