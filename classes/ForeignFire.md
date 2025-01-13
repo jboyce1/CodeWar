@@ -17,10 +17,13 @@ title: Enemies From Within
 **Key points:**
 - Manhatten Project
 - US Monopoly on Atomic Weapons
-- - Atomic Diplomacy in Potsdam Conference
-- - US global military power
+  - Atomic Diplomacy in Potsdam Conference
+  - US global military power
 - Containment Strategy
-- 
+  - Truman Doctrine
+  - Marshall Plan
+  - Baruch Plan (1946)
+- Soviet Determination
 <div style="text-align: center;">
   <p>-------------------------------------------------------------------------</p>
 </div>
