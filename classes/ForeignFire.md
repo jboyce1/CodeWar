@@ -87,5 +87,7 @@ title: Enemies From Within
 <div style="text-align: center;">
   <p>-------------------------------------------------------------------------</p>
 </div>
+
+[General Bloom Wants to Know]({{ 'classes/ForeignFire/General Bloom Wants to Know Foreign Fire.pdf' | relative_url }}) 
   
 [Return to Home](../)
