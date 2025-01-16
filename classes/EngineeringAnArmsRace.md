@@ -21,9 +21,9 @@ title: Preparing for Winter
 - Air Power Developments 
 - Naval Developments
 
+  **The Butter Battle Book:**
+
 <div style="text-align: center;">
-Butter Battle Book   
-  
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PQsPq4y7Q20?si=Pa5cG24SZYnYQbzV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div> 
 
