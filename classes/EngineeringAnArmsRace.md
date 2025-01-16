@@ -27,6 +27,9 @@ Butter Battle Book
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PQsPq4y7Q20?si=Pa5cG24SZYnYQbzV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div> 
 
+<div style="text-align: center;">
+  <p>-------------------------------------------------------------------------</p>
+</div>
 
 **Update Oct 1955:**  
 ### [NATO/USSR Neck and Neck in Arms Race]({{ 'classes/EngineeringAnArmsRace/Behind the Times- Engineering an Arms Race.pdf' | relative_url }})   
@@ -34,7 +37,9 @@ Butter Battle Book
   **General Bloom Wants To Know:**  
 ### [Butter Battle Book and the First Step of the Arms Race]({{ 'classes/EngineeringAnArmsRace/Butter Battle Book and the First Step of the Arms Race.pdf' | relative_url }})   
 
-  
+  <div style="text-align: center;">
+  <p>-------------------------------------------------------------------------</p>
+</div>
 
 
 ### Practical Exercise- Operation Backroom Boys
