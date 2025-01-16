@@ -10,7 +10,7 @@ title: Preparing for Winter
 <div style="text-align: center;">
   <img src="{{ 'classes/EngineeringAnArmsRace/MIG-19.jpeg' | relative_url }}" alt="Possible Campaigns in Western Europe 1953" style="max-width: 80%; height: auto;">
 </div>
-
+ The MiG-19 was the first Soviet production aircraft capable of supersonic speeds in level flight. A comparable U.S. "Century Series" fighter was the North American F-100 Super Sabre.    
 
 ### Lecture: On your marks, get set...
 
@@ -22,10 +22,10 @@ title: Preparing for Winter
 - Naval Developments
 
 <div style="text-align: center;">
-Butter Battle Book
+Butter Battle Book    
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PQsPq4y7Q20?si=Pa5cG24SZYnYQbzV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div> 
- The MiG-19 was the first Soviet production aircraft capable of supersonic speeds in level flight. A comparable U.S. "Century Series" fighter was the North American F-100 Super Sabre.
+
 
 **Update Oct 1955:**  
 ### [Behind the Times: Berlin Blockade]({{ 'classes/ColdShoulder/Behind The Times- Berlin Airlift.pdf' | relative_url }})   
