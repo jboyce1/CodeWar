@@ -16,3 +16,4 @@ In this course, students will delve into Cold War history by transforming the vi
 - [1949- Cold Shoulder](./classes/ColdShoulder)
 - [1949- Foreign Fire](./classes/ForeignFire)
 - [1950- Enemies From Within](./classes/EnemiesFromWithin)
+- [1955- Engineering An Arms Race](./classes/EngineeringAnArmsRace)
