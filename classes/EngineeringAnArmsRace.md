@@ -30,7 +30,7 @@ title: Preparing for Winter
 
 
 ### Update Oct 1955:  
-#### [NATO/USSR Neck and Neck in Arms Race]({{ 'classes/EngineeringAnArmsRace/Behind the Times- Engineering an Arms Race.pdf' | relative_url }})   
+#### [Behind the Times- NATO/USSR Neck and Neck in Arms Race]({{ 'classes/EngineeringAnArmsRace/Behind the Times- Engineering an Arms Race.pdf' | relative_url }})   
 
 ### General Bloom Wants To Know: 
 #### [Butter Battle Book and the First Step of the Arms Race]({{ 'classes/EngineeringAnArmsRace/Butter Battle Book and the First Step of the Arms Race.pdf' | relative_url }})   
