@@ -5,7 +5,10 @@ title: Enemies From Within
 
 # Foreign Fire
 
-**Focus**: Development of Soviet Atomic Capabilities
+**Focus**: Development of Soviet Atomic Capabilities    
+**Skill**: Game Logic with C# and Trait logic    
+**Activity**: OPERATION PITTSHATTAN PROJECT    
+
 
 <div style="text-align: center;">
   <img src="{{ 'classes/ForeignFire/joe-1-2.jpg' | relative_url }}" alt="RDS-1, The First Soviet Atomic Bomb" style="max-width: 80%; height: auto;">    
