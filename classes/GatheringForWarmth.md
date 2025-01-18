@@ -5,7 +5,7 @@ title: Enemies From Within
 
 # Gathering For Warmth
 
-**Focus**: The Warsaw Pact & mutual defense agreements
+**Focus**: The Warsaw Pact & mutual defense agreements    
 **Skill**: Faction Development    
 **Activity**: OPERATION SPHERES FOR FEARS    
 
