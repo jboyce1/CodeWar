@@ -32,13 +32,15 @@ title: Enemies From Within
   <p>-------------------------------------------------------------------------</p>
 </div>
 <div style="text-align: center;">
-The Korean War Using Google Earth    
+The Warsaw Pact Announced in the UK    
   
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6niivpfrEuk?si=CCPKtAhRgrykB8aq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>    
 </div>    
 
   **Update 1955:**[Behind The Times- Warsaw Pact Threatens NATO]({{ 'classes/TheProxAndTheBear/Behind the Times- Korean War Coming to Close.pdf' | relative_url }})  
-
+<div style="text-align: center;">
+  <p>-------------------------------------------------------------------------</p>
+</div>
 <div style="text-align: center;">
   <p>Major Weapon Platforms of Warsaw Pact Countries</p>    
       
