@@ -48,3 +48,8 @@ In this course, students will delve into Cold War history by transforming the vi
   - **Skill**: Sprite Development with Blendr and OS SHP Builder
   - **Activity**: OPERATION BACKROOM BOYS I, OPERATION BACKROOM BOYS II
 
+    
+#### [1955- Gathering For Warmth](./classes/GatheringForWarmth)
+  - **Focus**: The Warsaw Pact & mutual defense agreements     
+  - **Skill**: Faction Development    
+  - **Activity**: OPERATION SPHERES FOR FEARS    
