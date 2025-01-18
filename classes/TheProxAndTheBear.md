@@ -50,7 +50,7 @@ title: Enemies From Within
     U.S. Army Center of Military History
   </a>    
   
-[OPERATION FROZEN CONTOURS]({{ 'classes/TheProxAndTheBear/Operation Frozen Contours.pdf' | relative_url }})    
+### [OPERATION FROZEN CONTOURS]({{ 'classes/TheProxAndTheBear/Operation Frozen Contours.pdf' | relative_url }})    
     
  <div style="text-align: center;">
   <p>-------------------------------------------------------------------------</p>
