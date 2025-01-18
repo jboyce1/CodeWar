@@ -5,7 +5,9 @@ title: Enemies From Within
 
 # Enemies From Within
 
-**Focus**: Espionage and sedition: the origins and rise of cold-war era paranoia
+**Focus**: Espionage and sedition: the origins and rise of cold-war era paranoia    
+**Skill**: Trait manipulation in C# and YAML    
+**Activity**: OPERATION SHADOW OF THE CURTAIN    
 
 <div style="text-align: center;">
   <img src="{{ 'classes/EnemiesFromWithin/Possible Campaigns in Western Europe 1953.jpg' | relative_url }}" alt="Possible Campaigns in Western Europe 1953" style="max-width: 80%; height: auto;">
@@ -40,8 +42,10 @@ Activity 1: Game
   [Blooms Dinner Party 1950]({{ 'classes/EnemiesFromWithin/Blooms Dinner Party 1950.pdf' | relative_url }})   
 
 ### Practical Exercise- Command and Conquer: 1950    
-[Code War Classification Guide]({{ 'classes/EnemiesFromWithin/Code War Classification Levels.pdf' | relative_url }})    
-[Strategic Overview Of Key Installations In The Nato And Warsaw Pact Zones]({{ 'classes/EnemiesFromWithin/STRATEGIC OVERVIEW OF KEY INSTALLATIONS IN THE NATO AND WARSAW PACT ZONES.pdf' | relative_url }})
+[Strategic Overview Of Key Installations In The Nato And Warsaw Pact Zones]({{ 'classes/EnemiesFromWithin/STRATEGIC OVERVIEW OF KEY INSTALLATIONS IN THE NATO AND WARSAW PACT ZONES.pdf' | relative_url }})    
+
+[OPERATION SHADOW OF THE CURTAIN]({{ 'classes/EnemiesFromWithin/Operation Shadow of the Curtain.pdf' | relative_url }})        
+
 
   
 [Return to Home](../)
