@@ -5,7 +5,9 @@ title: Preparing for Winter
 
 # Engineering An Arms Race
 
-**Focus**: 1949-1955 Early Cold War Arms Race
+**Focus**: 1949-1955 Early Cold War Arms Race    
+**Skill**: Sprite Development with Blendr and OS SHP Builder    
+**Activity**: OPERATION BACKROOM BOYS I, OPERATION BACKROOM BOYS II    
 
 <div style="text-align: center;">
   <img src="{{ 'classes/EngineeringAnArmsRace/MIG-19.jpeg' | relative_url }}" alt="Possible Campaigns in Western Europe 1953" style="max-width: 80%; height: auto;">
