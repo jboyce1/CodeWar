@@ -9,10 +9,11 @@ title: Enemies From Within
 **Skill**: Map creation and editing 
 
 <div style="text-align: center;">
-  <img src="{{ 'classes/ForeignFire/joe-1-2.jpg' | relative_url }}" alt="RDS-1, The First Soviet Atomic Bomb" style="max-width: 80%; height: auto;">    
-  <p>RDS-1 "First Lightning", The First Soviet Atomic Bomb</p>
+  <img src="{{ 'classes/TheProxAndTheBear/4phasesofkoreanwar.png' | relative_url }}" alt="The Four Phases of the Korean War" style="max-width: 80%; height: auto;">    
 </div>
-
+<div style="text-align: center;">
+  <p>-------------------------------------------------------------------------</p>
+</div>
 ### Lecture: The Korean War as a Proxy Conflict in the Cold War Struggle 
 
 **Key points:**
@@ -32,70 +33,36 @@ title: Enemies From Within
   <p>-------------------------------------------------------------------------</p>
 </div>
 
-  **Update 1:**[Status of the USSR Atomic Energy 1JAN1949]({{ 'classes/ForeignFire/Status of the USSR Atomic Energy 1JAN1949.pdf' | relative_url }})    
-  **Update 2:**[Status of the USSR Atomic Energy 19JUL1949]({{ 'classes/ForeignFire/Status of the USSR Atomic Energy 19JUL1949.pdf' | relative_url }})  
+  **Update 1953:**[Behind The Times- Korean War Coming to Close]({{ 'classes/TheProxAndTheBear/Behind the Times- Korean War Coming to Close.pdf' | relative_url }})  
 
-### Practical Exercise- The PittsHatten Project: 
-  <a href="https://jboyce1.github.io/CodeWar/classes/CSforOpenRA" target="_blank" style="font-size: 18px; text-decoration: underline; color: #0a0a0a;">
-    Essential C# Concepts for OpenRA Trait Modifications
+  
+### Example Briefing: Battle of Inchon
+[Briefing Notes]({{ 'classes/TheProxAndTheBear/Inchon Briefing about with terrain forcus.pdf' | relative_url }})
+<div style="text-align: center;">
+  <img src="{{ 'classes/TheProxAndTheBear/guerrilla actions map.jpg' | relative_url }}" alt="Guerrilla Actions Map" style="max-width: 80%; height: auto;">    
+</div>
+
+### Practical Exercise- Operation Frozen Contours: 
+  <a href="https://www.koreanwar.org/html/maps-marines.html" target="_blank" style="font-size: 18px; text-decoration: underline; color: #0a0a0a;">
+    Korean War Maps - U.S. Marine Corps Historical Division 
+  </a>    
+    <a href="https://www.history.army.mil/books/maps.htm" target="_blank" style="font-size: 18px; text-decoration: underline; color: #0a0a0a;">
+    U.S. Army Center of Military History
   </a>    
   
-[OPERATION PITTSHATTAN PROJECT]({{ 'classes/ForeignFire/1949 Operation PittsHattan Project.pdf' | relative_url }})    
+[OPERATION FROZEN CONTOURS]({{ 'classes/TheProxAndTheBear/Operation Frozen Contours.pdf' | relative_url }})    
     
  <div style="text-align: center;">
   <p>-------------------------------------------------------------------------</p>
 </div>    
 
 <div style="text-align: center;">
-  <p>And then there were two...</p>
-  <video width="560" height="315" controls>
-    <source src="{{ 'classes/ForeignFire/1st Russian Atomic Bomb RDS-1.mp4' | relative_url }}" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</div>
-
+The Korean War Using Google Earth    
   
-[U.S. Weather Report of Atomic Detection System]({{ 'classes/ForeignFire/U.S. Weather Report of Atomic Detection System (Sep 1949).pdf' | relative_url }})    
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lJx6M7SqkvI?si=ATbHP11CRmB7yUdt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>    
+</div>    
 
-<div style="text-align: center;">
-  <p>-------------------------------------------------------------------------</p>
-</div>
 
-## How We Got Here 
-[A History Of Soviet MGB Penetration]({{ 'classes/ForeignFire/II. ORGANIZATION OF SOVIE[15573746].pdf' | relative_url }})  
-
-<div style="text-align: center;">
-  <p>Former Spy Interview</p>
-  <video width="560" height="315" controls>
-    <source src="{{ 'classes/ForeignFire/SYND 21 11 79 FORMER RUSSIAN SPY ANTHONY BLUNT INTERVIEW.mp4' | relative_url }}" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</div>
-
-<div style="text-align: center;">
-  <p>The Consequences of Soviet Espionage</p>
-  <video width="560" height="315" controls>
-    <source src="{{ 'classes/ForeignFire/Klaus Fuchs and the Russian Atomic Bomb.mp4' | relative_url }}" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</div>   
-
-### Lecture: NATO
-**Laying the foundation:**
-- Post WWII Security Vacuum
-- Truman Doctrine (1947)
-- Marshall Plan (1948)
-- Soviet expansion
-- Atomic Bomb Test    
-**North Atlantic Treat Organization:**
-- 4 April 1949, 12 members
-- Collective defense (Article 5)
-- Collective military planning
-- US shift from isolationism to global engagement
-<div style="text-align: center;">
-  <p>-------------------------------------------------------------------------</p>
-</div>
-
-[General Bloom Wants to Know]({{ 'classes/ForeignFire/General Bloom Wants to Know Foreign Fire.pdf' | relative_url }}) 
+[General Bloom Wants to Know About the Korean War]({{ 'classes/TheProxAndTheBear/General Bloom Wants to Know about the Korean War.pdf' | relative_url }}) 
   
 [Return to Home](../)
