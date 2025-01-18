@@ -5,7 +5,7 @@ title: Enemies From Within
 
 # The Prox and the Bear
 
-**Focus**: The Korean War as a Proxy Conflict in the Cold War Struggle 
+**Focus**: The Korean War as a Proxy Conflict in the Cold War Struggle    
 **Skill**: Map creation and editing 
 
 <div style="text-align: center;">
