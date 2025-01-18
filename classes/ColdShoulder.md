@@ -5,9 +5,9 @@ title: Preparing for Winter
 
 # Cold Shoulder
 
-**Focus**: The Berlin Blockade and Berlin Airlift
-**Skill**: Game Modding With Yaml Files
-**Activity**: OPERATION COLD SHOULDER
+**Focus**: The Berlin Blockade and Berlin Airlift    
+**Skill**: Game Modding With Yaml Files    
+**Activity**: OPERATION COLD SHOULDER    
 
 <div style="text-align: center;">
   <video controls style="max-width: 80%; height: auto;">
