@@ -6,8 +6,8 @@ title: Preparing for Winter
 # Preparing for Winter
 
 **Focus**: The Yalta and Potsdam Conferences and their role in shaping the post-WWII world order    
-**Skill**: Red Alert basic gameplay, strategy, and historical modding 
-**Activity:** Operation Us vs Them
+**Skill**: Red Alert basic gameplay, strategy, and historical modding    
+**Activity:** Operation Us vs Them    
 
 <div style="text-align: center;">
   <img src="{{ '/classes/PreparingForWinter/1946_Europe_Political.jpg' | relative_url }}" alt="1946 Europe Political Map" style="max-width: 80%; height: auto;">
