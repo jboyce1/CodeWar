@@ -91,10 +91,16 @@ title: Enemies From Within
 - Collective defense (Article 5)
 - Collective military planning
 - US shift from isolationism to global engagement
-<div style="text-align: center;">
-  <p>-------------------------------------------------------------------------</p>
-</div>
 
-[General Bloom Wants to Know]({{ 'classes/ForeignFire/General Bloom Wants to Know Foreign Fire.pdf' | relative_url }}) 
-  
+
+[General Bloom Wants to Know]({{ 'classes/ForeignFire/General Bloom Wants to Know Foreign Fire.pdf' | relative_url }})     
+
+  <div style="text-align: center;">
+  <p>-------------------------------------------------------------------------</p>
+</div>    
+
 [Return to Home](../)
+
+Additional Resources:    
+
+- https://www.amazon.com/gp/video/detail/amzn1.dv.gti.f60cf07a-7363-411e-9f4a-b93b568ef3d3?autoplay=0&ref_=atv_cf_strg_wb
