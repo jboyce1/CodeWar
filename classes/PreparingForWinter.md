@@ -52,8 +52,8 @@ We are now prepared for Winter: [Europe 1946 by influence]({{ 'classes/Preparing
 - Britian 
 
 ### Practical Exercise- Command and Conquer: 1948
-[CIA Soviet Invasion Analysis 1948]({{ 'classes/PreparingForWinter/CIA Russian Invasion Analysis 1948.pdf' | relative_url }}) 
-[OPERATION US VS THEM]({{ 'classes/PreparingForWinter/1948 Operational Comparison and Force Readiness Exercise.pdf' | relative_url }}) 
+- [CIA Soviet Invasion Analysis 1948]({{ 'classes/PreparingForWinter/CIA Russian Invasion Analysis 1948.pdf' | relative_url }})     
+- [OPERATION US VS THEM]({{ 'classes/PreparingForWinter/1948 Operational Comparison and Force Readiness Exercise.pdf' | relative_url }}) 
 
 [Operation Bloom Inquiry: Technology and Tactics 1948]({{ 'classes/PreparingForWinter/Military Forces and Technologies in 1948- questions.pdf' | relative_url }})    
 
