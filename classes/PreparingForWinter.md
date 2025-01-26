@@ -70,3 +70,6 @@ We are now prepared for Winter: [Europe 1946 by influence]({{ 'classes/Preparing
 </div>    
 
 [Return to Home](../)
+
+[Preparing for Winter Objectives and Standards]({{ 'classes/PreparingForWinter/Preparing for Winter Objectives and Standards.pdf' | relative_url }})    
+
