@@ -8,7 +8,7 @@ title: Preparing for Winter
 **Focus**: The Yalta and Potsdam Conferences and their role in shaping the post-WWII world order    
 **Skill**: Red Alert basic gameplay, strategy, and historical modding    
 **Activity:** Operation Us vs Them    
-**[Preparing for Winter Objectives and Standards]({{ 'classes/PreparingForWinter/Preparing for Winter Objectives and Standards.pdf' | relative_url }})**    
+**Objectives and Standards:** [Preparing for Winter O&S]({{ 'classes/PreparingForWinter/Preparing for Winter Objectives and Standards.pdf' | relative_url }})    
 
 
 <div style="text-align: center;">
