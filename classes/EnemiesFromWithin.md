@@ -49,3 +49,6 @@ Activity 1: Game
 
   
 [Return to Home](../)
+
+Addtional Resources:
+<a href="https://www.amazon.com/Quiet-Americans-Spies-War-Tragedy/dp/0385540450" target="_blank">The Quiet Americans</a>
