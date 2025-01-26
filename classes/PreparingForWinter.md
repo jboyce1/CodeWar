@@ -21,7 +21,11 @@ title: Preparing for Winter
 - Molotov-Ribbentrop Non-Aggression Pact (August 1939)
 - Operaration Barbarossa (June 1941)
 - Tehran Conference (December 1943)
-- Operation Overlord (June 1944)  
+- Operation Overlord (June 1944)
+  
+<div style="text-align: center;">
+  <p>-------------------------------------------------------------------------</p>
+</div>    
 
 ### [Yalta vs Potsdam Instructions]({{ 'classes/PreparingForWinter/Yalta vs Potsdam Instructions.pdf' | relative_url }})   
 **Update Feb 1945:**  
@@ -44,6 +48,10 @@ We are now prepared for Winter: [Europe 1946 by influence]({{ 'classes/Preparing
 <iframe width="560" height="315" src="https://www.youtube.com/embed/S2PUIQpAEAQ?si=2tRA0rVqh2FQFGew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 ### [Operation Bloom Inquiry: Preparing for Winter]({{ 'classes/PreparingForWinter/Preparing for Winter- questions.pdf' | relative_url }})
+  
+<div style="text-align: center;">
+  <p>-------------------------------------------------------------------------</p>
+</div>    
 
 ### [Technology and Tactics 1948]({{ 'classes/PreparingForWinter/Military Forces and Technologies in 1948- lecture.pdf' | relative_url }})
 **Key points:**
@@ -56,5 +64,9 @@ We are now prepared for Winter: [Europe 1946 by influence]({{ 'classes/Preparing
 - [OPERATION US VS THEM]({{ 'classes/PreparingForWinter/1948 Operational Comparison and Force Readiness Exercise.pdf' | relative_url }}) 
 
 [Operation Bloom Inquiry: Technology and Tactics 1948]({{ 'classes/PreparingForWinter/Military Forces and Technologies in 1948- questions.pdf' | relative_url }})    
+  
+<div style="text-align: center;">
+  <p>-------------------------------------------------------------------------</p>
+</div>    
 
 [Return to Home](../)
