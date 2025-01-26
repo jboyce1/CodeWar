@@ -25,12 +25,16 @@ title: Preparing for Winter
 
 ### [Yalta vs Potsdam Instructions]({{ 'classes/PreparingForWinter/Yalta vs Potsdam Instructions.pdf' | relative_url }})   
 **Update Feb 1945:**  
-- [Behind the Times: Yalta]({{ 'classes/PreparingForWinter/Behind the Times- Yalta.pdf' | relative_url }})  
+- [Behind the Times: Yalta]({{ 'classes/PreparingForWinter/Behind the Times- Yalta.pdf' | relative_url }})
+- [Initial Yalta Priorities]({{ 'classes/PreparingForWinter/Intitial Yalta Priorities 4x6 Cards.pdf' | relative_url }})  
     Activity 1: [Negotiate]({{ 'classes/PreparingForWinter/Yalta and Potsdam Options No Explaination.pdf' | relative_url }})
+
+
 
   
 **Update July 1945:**  
-- [Behind the Times: Potsdam]({{ '/classes/PreparingForWinter/Behind the Times- Potsdam.pdf' | relative_url }})  
+- [Behind the Times: Potsdam]({{ '/classes/PreparingForWinter/Behind the Times- Potsdam.pdf' | relative_url }})
+- [Potsdam Negotiation Power Update]({{ 'classes/PreparingForWinter/Potsdam Conference Update 4x6 Cards.pdf' | relative_url }})  
     Activity 2: [Renegotiate]({{ 'classes/PreparingForWinter/Yalta and Potsdam Options No Explaination.pdf' | relative_url }})
 
 We are now prepared for Winter: [Europe 1946 by influence]({{ 'classes/PreparingForWinter/Europe 1946 by influence.png' | relative_url }})
