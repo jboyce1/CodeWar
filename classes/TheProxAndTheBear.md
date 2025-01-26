@@ -66,3 +66,6 @@ The Korean War Using Google Earth
 [General Bloom Wants to Know About the Korean War]({{ 'classes/TheProxAndTheBear/General Bloom Wants to Know about the Korean War.pdf' | relative_url }}) 
   
 [Return to Home](../)
+
+Additional Resources:
+- The Manchurian Candidate
