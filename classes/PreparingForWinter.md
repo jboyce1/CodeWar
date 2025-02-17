@@ -65,7 +65,7 @@ We are now prepared for Winter: [Europe 1946 by influence]({{ 'classes/Preparing
 - [CIA Soviet Invasion Analysis 1948]({{ 'classes/PreparingForWinter/CIA Russian Invasion Analysis 1948.pdf' | relative_url }})     
 - [OPERATION US VS THEM]({{ 'classes/PreparingForWinter/OPERATION US VS THEM.pdf' | relative_url }})
 - <a href="https://github.com/jboyce1/CodeWar/releases/download/CodeWar1948/CodeWar1948.OPERATION.US.VS.THEM.tar.gz" download>
-    Download CodeWar 1948 OPERATION US VS THEM
+    Download the OpenRA mod CodeWar1948: OPERATION US VS THEM (40MB)
 </a>
 
 
