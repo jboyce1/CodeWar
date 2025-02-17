@@ -64,7 +64,10 @@ We are now prepared for Winter: [Europe 1946 by influence]({{ 'classes/Preparing
 ### Practical Exercise- Command and Conquer: 1948
 - [CIA Soviet Invasion Analysis 1948]({{ 'classes/PreparingForWinter/CIA Russian Invasion Analysis 1948.pdf' | relative_url }})     
 - [OPERATION US VS THEM]({{ 'classes/PreparingForWinter/OPERATION US VS THEM.pdf' | relative_url }})
-- <a href="https://raw.githubusercontent.com/jboyce1/CodeWar/main/classes/PreparingForWinter/CodeWar1948%20OPERATION%20US%20VS%20THEM.tar.gz" download>Download CodeWar 1948 OPERATION US VS THEM tar.gz</a>
+- <a href="https://github.com/jboyce1/CodeWar/releases/download/CodeWar1948/CodeWar1948.OPERATION.US.VS.THEM.tar.gz" download>
+    Download CodeWar 1948 OPERATION US VS THEM
+</a>
+
 
 
 [Operation Bloom Inquiry: Technology and Tactics 1948]({{ 'classes/PreparingForWinter/Military Forces and Technologies in 1948- questions.pdf' | relative_url }})    
