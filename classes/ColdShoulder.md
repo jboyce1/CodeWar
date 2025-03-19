@@ -17,7 +17,7 @@ title: Preparing for Winter
 </div>
 
 
-### [Lecture: Growing Tensions In Europe]({{ 'classes/ColdShoulder/Cold Shoulder Intel Update Brief.pdf' | relative_url }}
+### [Lecture: Growing Tensions In Europe]({{ 'classes/ColdShoulder/Cold Shoulder Intel Update Brief.pdf' | relative_url }})
 
 **Key points:**
 - Post War Tensions rising
