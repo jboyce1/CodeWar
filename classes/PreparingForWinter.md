@@ -49,7 +49,7 @@ We are now prepared for Winter: [Europe 1946 by influence]({{ 'classes/Preparing
 **The Snow Starts Falling**
 <iframe width="560" height="315" src="https://www.youtube.com/embed/S2PUIQpAEAQ?si=2tRA0rVqh2FQFGew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
-### [Operation Bloom Inquiry: Preparing for Winter]({{ 'classes/PreparingForWinter/Preparing for Winter- questions.pdf' | relative_url }})
+### [SITREP to GEN Bloom: Preparing for Winter]({{ 'classes/PreparingForWinter/Preparing for Winter- questions.pdf' | relative_url }})
   
 <div style="text-align: center;">
   <p>-------------------------------------------------------------------------</p>
@@ -70,7 +70,7 @@ We are now prepared for Winter: [Europe 1946 by influence]({{ 'classes/Preparing
 
 
 
-[Operation Bloom Inquiry: Technology and Tactics 1948]({{ 'classes/PreparingForWinter/Military Forces and Technologies in 1948- questions.pdf' | relative_url }})    
+[SITREP to GEN Bloom: Technology and Tactics 1948]({{ 'classes/PreparingForWinter/Military Forces and Technologies in 1948- questions.pdf' | relative_url }})    
   
 <div style="text-align: center;">
   <p>-------------------------------------------------------------------------</p>
