@@ -45,6 +45,7 @@ In 1951, NATO was aware of the general position of 175 Soviet and 62 Satellite d
   </iframe>
 </div>
 
+https://www.youtube.com/watch?v=WyY_RhGPvD0&t=156s
 
 Activity 1: Game    
 [Signals and Subversion: Sedition in the Shadow of the Iron Curtain 1948-1954]({{ 'classes/EnemiesFromWithin/Signals and Subversion Instructions.pdf' | relative_url }})  
