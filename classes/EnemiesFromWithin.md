@@ -28,39 +28,6 @@ In 1951, NATO was aware of the general position of 175 Soviet and 62 Satellite d
 
    
   
-<div style="text-align: center;">
-Human Intelligence is the only Intelligence...for now
-  - Play Video 2:06 - 6:26
----
-layout: default
-title: Enemies From Within
----
-
-# Enemies From Within
-
-**Focus**: Espionage and sedition: the origins and rise of cold-war era paranoia    
-**Skill**: Trait manipulation in C# and YAML    
-**Activity**: OPERATION SHADOW OF THE CURTAIN    
-
-<div style="text-align: center;">
-  <img src="{{ 'classes/EnemiesFromWithin/Possible Campaigns in Western Europe 1953.jpg' | relative_url }}" alt="Possible Campaigns in Western Europe 1953" style="max-width: 80%; height: auto;">
-</div>
-In 1951, NATO was aware of the general position of 175 Soviet and 62 Satellite divisions. For compatison, NATO had 35 divisions. This map shows a possible Soviet Invasion from the perspective of NATO intelligence.
-
-
-### Lecture: Strategic military postures in 1949
-
-**Key points:**
-- US techonological investment
-- Soviet changes in doctine
-- Secrecy as a weapon (US)
-- Show of force as a weapon (USSR)
-- Espionage and subversion: a juxtapostion of ideals
-
-  **Update Feb 1950:**[Behind the Times: McCarthy Speech]({{ 'classes/EnemiesFromWithin/Behind the Times- McCarthy Speech.pdf' | relative_url }})   
-
-   
-  
 <div style="text-align: center; margin: 1.5rem 0;">
   <h3>Human Intelligence is the only Intelligence...for now</h3>
 
