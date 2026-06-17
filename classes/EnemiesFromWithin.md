@@ -61,11 +61,22 @@ In 1951, NATO was aware of the general position of 175 Soviet and 62 Satellite d
 
    
   
-<div style="text-align: center;">
-Human Intelligence is the only Intelligence...for now
-  - Play Video 2:06 - 6:26
-<iframe width="560" height="315" src="https://www.youtube.com/embed/78SpTNDUSkQ?si=zjtpOzEWd8byCtcI&amp;start=126" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>    
-</div>    
+<div style="text-align: center; margin: 1.5rem 0;">
+  <h3>Human Intelligence is the only Intelligence...for now</h3>
+
+  <p><strong>Play Video:</strong> 2:06–6:26</p>
+
+  <iframe 
+    width="560" 
+    height="315" 
+    src="https://www.youtube.com/embed/78SpTNDUSkQ?start=126&amp;end=386" 
+    title="Human Intelligence is the only Intelligence...for now"
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" 
+    allowfullscreen>
+  </iframe>
+</div>
 
 
 Activity 1: Game    
