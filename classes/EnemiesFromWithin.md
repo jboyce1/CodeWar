@@ -64,7 +64,6 @@ Activity 1: Game
 
 Addtional Resources:
 <a href="https://www.amazon.com/Quiet-Americans-Spies-War-Tragedy/dp/0385540450" target="_blank">The Quiet Americans</a>   
-</div>    
 
 
 Activity 1: Game    
